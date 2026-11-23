@@ -1,0 +1,5507 @@
+{
+  "source": "locally_supplied_game_asset",
+  "source_sha256": null,
+  "bundle_offset": 451398,
+  "assets": [
+    {
+      "name": "IconAvatarRecommend",
+      "dimensions": [
+        46,
+        46
+      ],
+      "image": "common/-9209409081465785117.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-9209409081465785117"
+    },
+    {
+      "name": "IconOrderDown@3x",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/-9187620491424774328.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-9187620491424774328"
+    },
+    {
+      "name": "Outline10px50RFHD",
+      "dimensions": [
+        108,
+        108
+      ],
+      "image": "common/-9175689592379639236.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-9175689592379639236"
+    },
+    {
+      "name": "FrameMiniMapEntry",
+      "dimensions": [
+        60,
+        72
+      ],
+      "image": "common/-9173023495356019965.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-9173023495356019965"
+    },
+    {
+      "name": "RoundCornerOutline24RFHD",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/-9068965853289459010.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-9068965853289459010"
+    },
+    {
+      "name": "HealthSetOverallLight",
+      "dimensions": [
+        104,
+        104
+      ],
+      "image": "common/-9063801327521664753.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-9063801327521664753"
+    },
+    {
+      "name": "CommonEmptyDot",
+      "dimensions": [
+        20,
+        20
+      ],
+      "image": "common/-9062517225957126679.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-9062517225957126679"
+    },
+    {
+      "name": "IconFind",
+      "dimensions": [
+        26,
+        26
+      ],
+      "image": "common/-9031260514036614623.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-9031260514036614623"
+    },
+    {
+      "name": "CommonTaskTabDeco",
+      "dimensions": [
+        21,
+        16
+      ],
+      "image": "common/-8989786787646578935.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8989786787646578935"
+    },
+    {
+      "name": "IconCultivateSetup",
+      "dimensions": [
+        54,
+        55
+      ],
+      "image": "common/-8983184508188839570.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8983184508188839570"
+    },
+    {
+      "name": "MapAlert",
+      "dimensions": [
+        164,
+        164
+      ],
+      "image": "common/-8951914333834469289.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8951914333834469289"
+    },
+    {
+      "name": "IconMonsterSandGlass",
+      "dimensions": [
+        36,
+        25
+      ],
+      "image": "common/-8934674894828382225.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8934674894828382225"
+    },
+    {
+      "name": "IconAttributeLock_Black",
+      "dimensions": [
+        34,
+        38
+      ],
+      "image": "common/-8889589907959510660.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8889589907959510660"
+    },
+    {
+      "name": "FrameDoubleRhombus",
+      "dimensions": [
+        109,
+        117
+      ],
+      "image": "common/-8886246886142553056.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8886246886142553056"
+    },
+    {
+      "name": "CommonShortCutHintBg",
+      "dimensions": [
+        70,
+        60
+      ],
+      "image": "common/-8884390664095971966.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8884390664095971966"
+    },
+    {
+      "name": "ComCircleFrame15R@3x",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-8881263986917046137.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8881263986917046137"
+    },
+    {
+      "name": "FrameHead01",
+      "dimensions": [
+        69,
+        69
+      ],
+      "image": "common/-8854070783478496078.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8854070783478496078"
+    },
+    {
+      "name": "IconPlaying",
+      "dimensions": [
+        29,
+        34
+      ],
+      "image": "common/-8827885944981666458.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8827885944981666458"
+    },
+    {
+      "name": "LoadingBgFrame",
+      "dimensions": [
+        18,
+        25
+      ],
+      "image": "common/-8792326693319247947.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8792326693319247947"
+    },
+    {
+      "name": "BtnQuickConsumableiOutline",
+      "dimensions": [
+        45,
+        62
+      ],
+      "image": "common/-8779603302656397272.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8779603302656397272"
+    },
+    {
+      "name": "CommonTabDecoRing",
+      "dimensions": [
+        38,
+        38
+      ],
+      "image": "common/-8774354939562093254.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8774354939562093254"
+    },
+    {
+      "name": "FriendOnlineIcon1P",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/-8725778792818922405.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8725778792818922405"
+    },
+    {
+      "name": "PattenCross",
+      "dimensions": [
+        100,
+        100
+      ],
+      "image": "common/-8698291173134565174.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8698291173134565174"
+    },
+    {
+      "name": "IconSelectedArrowBg",
+      "dimensions": [
+        36,
+        40
+      ],
+      "image": "common/-8697017151272347390.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8697017151272347390"
+    },
+    {
+      "name": "CirclePSDownload",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/-8686594931317008126.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8686594931317008126"
+    },
+    {
+      "name": "FarmElementNamePanel",
+      "dimensions": [
+        30,
+        38
+      ],
+      "image": "common/-8676961165248976106.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8676961165248976106"
+    },
+    {
+      "name": "TimerIcon",
+      "dimensions": [
+        28,
+        28
+      ],
+      "image": "common/-8644365037263805981.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8644365037263805981"
+    },
+    {
+      "name": "IconBuffSqureMark_02",
+      "dimensions": [
+        22,
+        25
+      ],
+      "image": "common/-8630794981515423615.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8630794981515423615"
+    },
+    {
+      "name": "OutlineDotBreak2px45R@3x",
+      "dimensions": [
+        90,
+        90
+      ],
+      "image": "common/-8594887238569947629.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8594887238569947629"
+    },
+    {
+      "name": "IconForbidden",
+      "dimensions": [
+        41,
+        41
+      ],
+      "image": "common/-8589519244655515294.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8589519244655515294"
+    },
+    {
+      "name": "CommonTabUnderOutline4",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/-8465509605931725017.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8465509605931725017"
+    },
+    {
+      "name": "Outline1px20R",
+      "dimensions": [
+        52,
+        52
+      ],
+      "image": "common/-8442039994034549120.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8442039994034549120"
+    },
+    {
+      "name": "Outline2px13RHD",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/-8349530739042360503.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8349530739042360503"
+    },
+    {
+      "name": "IconUp",
+      "dimensions": [
+        32,
+        28
+      ],
+      "image": "common/-8336123986328151419.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8336123986328151419"
+    },
+    {
+      "name": "DoubleOutlineDot",
+      "dimensions": [
+        120,
+        120
+      ],
+      "image": "common/-8325598310561724037.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8325598310561724037"
+    },
+    {
+      "name": "ComBtnInnerOutline3.png.meta",
+      "dimensions": [
+        162,
+        162
+      ],
+      "image": "common/-8294134496040739852.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8294134496040739852"
+    },
+    {
+      "name": "CommonItemUnderOutline1",
+      "dimensions": [
+        128,
+        128
+      ],
+      "image": "common/-8243498725997198917.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8243498725997198917"
+    },
+    {
+      "name": "OutlineGlow2px28R@3x",
+      "dimensions": [
+        88,
+        88
+      ],
+      "image": "common/-8223733965603460278.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8223733965603460278"
+    },
+    {
+      "name": "IconArrow04",
+      "dimensions": [
+        18,
+        18
+      ],
+      "image": "common/-8209935565443022028.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8209935565443022028"
+    },
+    {
+      "name": "IconSubMissionArrow",
+      "dimensions": [
+        37,
+        36
+      ],
+      "image": "common/-8191120888190551592.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8191120888190551592"
+    },
+    {
+      "name": "VoiceOn",
+      "dimensions": [
+        31,
+        34
+      ],
+      "image": "common/-8178599010562282420.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8178599010562282420"
+    },
+    {
+      "name": "FrameOutLineCricle56",
+      "dimensions": [
+        56,
+        56
+      ],
+      "image": "common/-8173764816499598871.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8173764816499598871"
+    },
+    {
+      "name": "IconArrow02",
+      "dimensions": [
+        20,
+        20
+      ],
+      "image": "common/-8136332250694468277.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8136332250694468277"
+    },
+    {
+      "name": "IconArtDecoBg01",
+      "dimensions": [
+        116,
+        116
+      ],
+      "image": "common/-8125239446582611959.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8125239446582611959"
+    },
+    {
+      "name": "IconMagnifier@3x",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-8083506669479230819.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8083506669479230819"
+    },
+    {
+      "name": "ComCircleFrame64R",
+      "dimensions": [
+        128,
+        128
+      ],
+      "image": "common/-8006747372133568584.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-8006747372133568584"
+    },
+    {
+      "name": "SelectedHookIcon",
+      "dimensions": [
+        28,
+        28
+      ],
+      "image": "common/-7921440946912062733.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7921440946912062733"
+    },
+    {
+      "name": "IconLeaveBig",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/-7917523705051060475.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7917523705051060475"
+    },
+    {
+      "name": "IconSwitch",
+      "dimensions": [
+        26,
+        26
+      ],
+      "image": "common/-7915882778741196320.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7915882778741196320"
+    },
+    {
+      "name": "ComCircleFrame128R@3x",
+      "dimensions": [
+        128,
+        128
+      ],
+      "image": "common/-7875715903943734914.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7875715903943734914"
+    },
+    {
+      "name": "FrameBacklogOption",
+      "dimensions": [
+        18,
+        17
+      ],
+      "image": "common/-7865150495516008956.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7865150495516008956"
+    },
+    {
+      "name": "IconSalvage",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-7860115365949408021.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7860115365949408021"
+    },
+    {
+      "name": "ArrowSelect",
+      "dimensions": [
+        22,
+        20
+      ],
+      "image": "common/-7852501851569084504.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7852501851569084504"
+    },
+    {
+      "name": "IconBackLog",
+      "dimensions": [
+        32,
+        23
+      ],
+      "image": "common/-7851170660848930704.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7851170660848930704"
+    },
+    {
+      "name": "CompleteIcon",
+      "dimensions": [
+        22,
+        20
+      ],
+      "image": "common/-7819602688750721085.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7819602688750721085"
+    },
+    {
+      "name": "CommonCircleOutilineGlowRight",
+      "dimensions": [
+        52,
+        72
+      ],
+      "image": "common/-7814013312432917608.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7814013312432917608"
+    },
+    {
+      "name": "Outline40PxFillet",
+      "dimensions": [
+        84,
+        84
+      ],
+      "image": "common/-7807655929355824671.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7807655929355824671"
+    },
+    {
+      "name": "DotCheck",
+      "dimensions": [
+        22,
+        22
+      ],
+      "image": "common/-7744348345793550807.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7744348345793550807"
+    },
+    {
+      "name": "IconLink",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/-7709819883633826760.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7709819883633826760"
+    },
+    {
+      "name": "ArrowHint",
+      "dimensions": [
+        40,
+        40
+      ],
+      "image": "common/-7690153213151047985.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7690153213151047985"
+    },
+    {
+      "name": "IconForbiddenBold",
+      "dimensions": [
+        45,
+        45
+      ],
+      "image": "common/-7667609078210751305.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7667609078210751305"
+    },
+    {
+      "name": "Outline12pxCornerFHD",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-7609582410483038476.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7609582410483038476"
+    },
+    {
+      "name": "TaskMiniIcon",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/-7585903192785803089.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7585903192785803089"
+    },
+    {
+      "name": "IconInside",
+      "dimensions": [
+        46,
+        38
+      ],
+      "image": "common/-7536938465135410245.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7536938465135410245"
+    },
+    {
+      "name": "CommonDeletLine",
+      "dimensions": [
+        60,
+        44
+      ],
+      "image": "common/-7532310253014678674.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7532310253014678674"
+    },
+    {
+      "name": "IconArtDecoActivation",
+      "dimensions": [
+        28,
+        28
+      ],
+      "image": "common/-7515632397830175123.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7515632397830175123"
+    },
+    {
+      "name": "ItemCheckBtn",
+      "dimensions": [
+        46,
+        49
+      ],
+      "image": "common/-7480127414901739686.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7480127414901739686"
+    },
+    {
+      "name": "OutlineDot2px33RFHD",
+      "dimensions": [
+        68,
+        68
+      ],
+      "image": "common/-7471699533647442990.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7471699533647442990"
+    },
+    {
+      "name": "IconFollow",
+      "dimensions": [
+        31,
+        32
+      ],
+      "image": "common/-7437612277669875461.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7437612277669875461"
+    },
+    {
+      "name": "RankIconFrame02",
+      "dimensions": [
+        124,
+        124
+      ],
+      "image": "common/-7317148697335342905.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7317148697335342905"
+    },
+    {
+      "name": "IconPreDownload",
+      "dimensions": [
+        29,
+        32
+      ],
+      "image": "common/-7284718212129729946.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7284718212129729946"
+    },
+    {
+      "name": "IconNotice",
+      "dimensions": [
+        29,
+        32
+      ],
+      "image": "common/-7283027470455123178.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7283027470455123178"
+    },
+    {
+      "name": "TemporaryIcon01",
+      "dimensions": [
+        54,
+        51
+      ],
+      "image": "common/-7234550535463061668.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7234550535463061668"
+    },
+    {
+      "name": "TeachIconBtn",
+      "dimensions": [
+        54,
+        74
+      ],
+      "image": "common/-7177834002169314703.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7177834002169314703"
+    },
+    {
+      "name": "DecoRoundCorner",
+      "dimensions": [
+        120,
+        120
+      ],
+      "image": "common/-7173147795776053754.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7173147795776053754"
+    },
+    {
+      "name": "Outline2px30RFHD",
+      "dimensions": [
+        66,
+        66
+      ],
+      "image": "common/-7051814684783089134.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-7051814684783089134"
+    },
+    {
+      "name": "RefuseIcon",
+      "dimensions": [
+        61,
+        60
+      ],
+      "image": "common/-6998902440607078941.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6998902440607078941"
+    },
+    {
+      "name": "Outline2px24RHD",
+      "dimensions": [
+        52,
+        52
+      ],
+      "image": "common/-6988082756863367085.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6988082756863367085"
+    },
+    {
+      "name": "ArrowActivity",
+      "dimensions": [
+        20,
+        26
+      ],
+      "image": "common/-6955271364436007651.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6955271364436007651"
+    },
+    {
+      "name": "BtnQuickConsumable",
+      "dimensions": [
+        88,
+        72
+      ],
+      "image": "common/-6933725518105313236.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6933725518105313236"
+    },
+    {
+      "name": "ComRectShadow@3x",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/-6863445171019691545.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6863445171019691545"
+    },
+    {
+      "name": "Refresh",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/-6836731224741176981.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6836731224741176981"
+    },
+    {
+      "name": "IconTeamLite",
+      "dimensions": [
+        44,
+        44
+      ],
+      "image": "common/-6791226159439581868.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6791226159439581868"
+    },
+    {
+      "name": "ComCircleFrame32R@3x",
+      "dimensions": [
+        66,
+        66
+      ],
+      "image": "common/-6596270530481383869.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6596270530481383869"
+    },
+    {
+      "name": "FriendFrameRight",
+      "dimensions": [
+        144,
+        148
+      ],
+      "image": "common/-6584064858470227513.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6584064858470227513"
+    },
+    {
+      "name": "HardGlow",
+      "dimensions": [
+        60,
+        60
+      ],
+      "image": "common/-6544439135756315882.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6544439135756315882"
+    },
+    {
+      "name": "IconGuide",
+      "dimensions": [
+        33,
+        39
+      ],
+      "image": "common/-6506487213017303434.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6506487213017303434"
+    },
+    {
+      "name": "CommonEmpty_S",
+      "dimensions": [
+        50,
+        63
+      ],
+      "image": "common/-6392044831034660969.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6392044831034660969"
+    },
+    {
+      "name": "IconTalkEmpty",
+      "dimensions": [
+        31,
+        32
+      ],
+      "image": "common/-6302583870992081495.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6302583870992081495"
+    },
+    {
+      "name": "RankIconFrame03",
+      "dimensions": [
+        124,
+        124
+      ],
+      "image": "common/-6250158585102591296.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6250158585102591296"
+    },
+    {
+      "name": "IconClock",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-6245594664988186875.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6245594664988186875"
+    },
+    {
+      "name": "RogueStarStateOff",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-6217096493799991469.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6217096493799991469"
+    },
+    {
+      "name": "IconEnvelope",
+      "dimensions": [
+        40,
+        31
+      ],
+      "image": "common/-6039383452941874932.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6039383452941874932"
+    },
+    {
+      "name": "LockIconFHD",
+      "dimensions": [
+        54,
+        64
+      ],
+      "image": "common/-6003516054714882760.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-6003516054714882760"
+    },
+    {
+      "name": "IconForList",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-5944625908085623579.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5944625908085623579"
+    },
+    {
+      "name": "OutlineFrameBattleMini",
+      "dimensions": [
+        72,
+        72
+      ],
+      "image": "common/-5906946403080140627.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5906946403080140627"
+    },
+    {
+      "name": "FriendFrameRight2",
+      "dimensions": [
+        140,
+        148
+      ],
+      "image": "common/-5896208603901910141.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5896208603901910141"
+    },
+    {
+      "name": "IconToDelete",
+      "dimensions": [
+        36,
+        41
+      ],
+      "image": "common/-5834377439536963976.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5834377439536963976"
+    },
+    {
+      "name": "CommonDecoHalfMoon",
+      "dimensions": [
+        16,
+        16
+      ],
+      "image": "common/-5711150737342069365.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5711150737342069365"
+    },
+    {
+      "name": "ArrowForNotifications",
+      "dimensions": [
+        24,
+        19
+      ],
+      "image": "common/-5690710584081613119.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5690710584081613119"
+    },
+    {
+      "name": "ArrowStrengthen",
+      "dimensions": [
+        28,
+        28
+      ],
+      "image": "common/-5687684433048394963.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5687684433048394963"
+    },
+    {
+      "name": "IconTransfer@3x",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-5646971203771538081.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5646971203771538081"
+    },
+    {
+      "name": "IconSkillPoint",
+      "dimensions": [
+        28,
+        28
+      ],
+      "image": "common/-5610990540843947029.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5610990540843947029"
+    },
+    {
+      "name": "IconArrowExpand",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-5521658333294418911.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5521658333294418911"
+    },
+    {
+      "name": "IconRogueTournTitanFrameIconLike",
+      "dimensions": [
+        32,
+        30
+      ],
+      "image": "common/-5466294857682369870.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5466294857682369870"
+    },
+    {
+      "name": "FrameGuideBtnLeftBottom",
+      "dimensions": [
+        35,
+        28
+      ],
+      "image": "common/-5461990438148132017.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5461990438148132017"
+    },
+    {
+      "name": "IconWrite",
+      "dimensions": [
+        31,
+        32
+      ],
+      "image": "common/-5459558482730118724.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5459558482730118724"
+    },
+    {
+      "name": "EquipAbandonMark",
+      "dimensions": [
+        50,
+        52
+      ],
+      "image": "common/-5434804062891947177.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5434804062891947177"
+    },
+    {
+      "name": "IconFixedPaths",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-5359964715481862062.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5359964715481862062"
+    },
+    {
+      "name": "OutlineBreakpointTalk",
+      "dimensions": [
+        21,
+        21
+      ],
+      "image": "common/-5301475338067821642.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5301475338067821642"
+    },
+    {
+      "name": "IconStrengthen",
+      "dimensions": [
+        64,
+        64
+      ],
+      "image": "common/-5276844060352404967.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5276844060352404967"
+    },
+    {
+      "name": "Outline2px80R@3x",
+      "dimensions": [
+        162,
+        162
+      ],
+      "image": "common/-5261078342981407196.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5261078342981407196"
+    },
+    {
+      "name": "GetIcon_Large",
+      "dimensions": [
+        148,
+        148
+      ],
+      "image": "common/-5198018022633719966.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5198018022633719966"
+    },
+    {
+      "name": "BannerHintFrame",
+      "dimensions": [
+        122,
+        82
+      ],
+      "image": "common/-5161626085160154933.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5161626085160154933"
+    },
+    {
+      "name": "OutlineGuideBtn",
+      "dimensions": [
+        25,
+        25
+      ],
+      "image": "common/-5134583985003019272.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5134583985003019272"
+    },
+    {
+      "name": "IconFavoriteOutline",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/-5132286024015121023.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5132286024015121023"
+    },
+    {
+      "name": "OutlineComGlow",
+      "dimensions": [
+        78,
+        78
+      ],
+      "image": "common/-5082311072790104620.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5082311072790104620"
+    },
+    {
+      "name": "IconToggle@3x",
+      "dimensions": [
+        42,
+        42
+      ],
+      "image": "common/-5063152015662522942.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5063152015662522942"
+    },
+    {
+      "name": "Ellipse",
+      "dimensions": [
+        68,
+        68
+      ],
+      "image": "common/-5030031027863104289.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-5030031027863104289"
+    },
+    {
+      "name": "DecoMapInfo",
+      "dimensions": [
+        77,
+        103
+      ],
+      "image": "common/-4943240821967873209.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4943240821967873209"
+    },
+    {
+      "name": "IconAdd_02",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-4901342970848074814.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4901342970848074814"
+    },
+    {
+      "name": "IconGo@3x",
+      "dimensions": [
+        30,
+        31
+      ],
+      "image": "common/-4895851986587990165.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4895851986587990165"
+    },
+    {
+      "name": "IconFollowMulti",
+      "dimensions": [
+        36,
+        31
+      ],
+      "image": "common/-4875862119278357498.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4875862119278357498"
+    },
+    {
+      "name": "IconRougeLegendMini",
+      "dimensions": [
+        40,
+        40
+      ],
+      "image": "common/-4837596480052667153.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4837596480052667153"
+    },
+    {
+      "name": "HollowGlowRect",
+      "dimensions": [
+        312,
+        312
+      ],
+      "image": "common/-4807413799336149366.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4807413799336149366"
+    },
+    {
+      "name": "IconSkip",
+      "dimensions": [
+        26,
+        22
+      ],
+      "image": "common/-4784219407083971221.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4784219407083971221"
+    },
+    {
+      "name": "CommonDecoFrame1",
+      "dimensions": [
+        78,
+        78
+      ],
+      "image": "common/-4688439635226370489.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4688439635226370489"
+    },
+    {
+      "name": "HollowGlow",
+      "dimensions": [
+        230,
+        230
+      ],
+      "image": "common/-4668646069863475331.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4668646069863475331"
+    },
+    {
+      "name": "IconAvatarSort@3x",
+      "dimensions": [
+        64,
+        64
+      ],
+      "image": "common/-4629040189609149390.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4629040189609149390"
+    },
+    {
+      "name": "ComCircleFrame20RHD",
+      "dimensions": [
+        40,
+        40
+      ],
+      "image": "common/-4585623507978191880.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4585623507978191880"
+    },
+    {
+      "name": "LightCom",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-4558309732215814848.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4558309732215814848"
+    },
+    {
+      "name": "LockSettingIcon",
+      "dimensions": [
+        56,
+        60
+      ],
+      "image": "common/-4540362933404676486.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4540362933404676486"
+    },
+    {
+      "name": "Outline2px33R_Dot@3x",
+      "dimensions": [
+        68,
+        84
+      ],
+      "image": "common/-4482950599402529420.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4482950599402529420"
+    },
+    {
+      "name": "IconArtDecoBgLine",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-4467191995921208461.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4467191995921208461"
+    },
+    {
+      "name": "AchievementS",
+      "dimensions": [
+        31,
+        32
+      ],
+      "image": "common/-4460982986755651420.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4460982986755651420"
+    },
+    {
+      "name": "IconMatchingGame",
+      "dimensions": [
+        28,
+        27
+      ],
+      "image": "common/-4440590939924359032.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4440590939924359032"
+    },
+    {
+      "name": "PhoneMessageChallengeIcon",
+      "dimensions": [
+        43,
+        44
+      ],
+      "image": "common/-4421581529032088712.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4421581529032088712"
+    },
+    {
+      "name": "IconUnmatch",
+      "dimensions": [
+        28,
+        28
+      ],
+      "image": "common/-4385342554037985638.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4385342554037985638"
+    },
+    {
+      "name": "IconBtnBackSmall",
+      "dimensions": [
+        40,
+        39
+      ],
+      "image": "common/-4372047532042693336.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4372047532042693336"
+    },
+    {
+      "name": "Outline7px@3x",
+      "dimensions": [
+        80,
+        80
+      ],
+      "image": "common/-4307278443712719271.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4307278443712719271"
+    },
+    {
+      "name": "IconSurvey",
+      "dimensions": [
+        28,
+        32
+      ],
+      "image": "common/-4275071496001745134.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4275071496001745134"
+    },
+    {
+      "name": "Outline3px84R@3x",
+      "dimensions": [
+        170,
+        170
+      ],
+      "image": "common/-4246136878376875337.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4246136878376875337"
+    },
+    {
+      "name": "BgSquare",
+      "dimensions": [
+        65,
+        65
+      ],
+      "image": "common/-4211967107886264748.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4211967107886264748"
+    },
+    {
+      "name": "ArrowForPhone",
+      "dimensions": [
+        46,
+        36
+      ],
+      "image": "common/-4187171863737019951.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4187171863737019951"
+    },
+    {
+      "name": "Circle42RGlowFHD",
+      "dimensions": [
+        102,
+        102
+      ],
+      "image": "common/-4157608903313161218.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4157608903313161218"
+    },
+    {
+      "name": "Outline1px30R",
+      "dimensions": [
+        60,
+        60
+      ],
+      "image": "common/-4122098821058072535.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4122098821058072535"
+    },
+    {
+      "name": "FrameGuideBtnRightBottom",
+      "dimensions": [
+        28,
+        35
+      ],
+      "image": "common/-4109800706312523592.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4109800706312523592"
+    },
+    {
+      "name": "IconShadowStar@3x",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-4022076417262989008.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4022076417262989008"
+    },
+    {
+      "name": "IconChallengeStar",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/-4002583877981689334.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4002583877981689334"
+    },
+    {
+      "name": "Outline4px14RBreak",
+      "dimensions": [
+        60,
+        60
+      ],
+      "image": "common/-3997017787650751465.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3997017787650751465"
+    },
+    {
+      "name": "SupportIconSmall",
+      "dimensions": [
+        40,
+        40
+      ],
+      "image": "common/-3962445726998792941.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3962445726998792941"
+    },
+    {
+      "name": "NumBaseImgB",
+      "dimensions": [
+        53,
+        53
+      ],
+      "image": "common/-3954614627403240690.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3954614627403240690"
+    },
+    {
+      "name": "ComonBtnIconFrame",
+      "dimensions": [
+        42,
+        42
+      ],
+      "image": "common/-3931236740969565495.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3931236740969565495"
+    },
+    {
+      "name": "Outline2px52RFHD",
+      "dimensions": [
+        138,
+        138
+      ],
+      "image": "common/-3876167998742016722.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3876167998742016722"
+    },
+    {
+      "name": "IconSettingVoice",
+      "dimensions": [
+        32,
+        26
+      ],
+      "image": "common/-3851899338944351848.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3851899338944351848"
+    },
+    {
+      "name": "IconCDClock",
+      "dimensions": [
+        29,
+        32
+      ],
+      "image": "common/-3841537252469499591.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3841537252469499591"
+    },
+    {
+      "name": "ComCircleFrame24R",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/-3832640211161510663.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3832640211161510663"
+    },
+    {
+      "name": "FrameItemSelected_Hint",
+      "dimensions": [
+        89,
+        62
+      ],
+      "image": "common/-3826507389137270259.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3826507389137270259"
+    },
+    {
+      "name": "OutlineGlow_01",
+      "dimensions": [
+        58,
+        58
+      ],
+      "image": "common/-3709096364800566436.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3709096364800566436"
+    },
+    {
+      "name": "DecoArrow02",
+      "dimensions": [
+        40,
+        40
+      ],
+      "image": "common/-3611922326006897024.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3611922326006897024"
+    },
+    {
+      "name": "FrameHead02",
+      "dimensions": [
+        74,
+        74
+      ],
+      "image": "common/-3596493496555060464.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3596493496555060464"
+    },
+    {
+      "name": "Outline4px34RFHD",
+      "dimensions": [
+        72,
+        72
+      ],
+      "image": "common/-3587176876837409041.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3587176876837409041"
+    },
+    {
+      "name": "IconSet",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-3485502208033515453.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3485502208033515453"
+    },
+    {
+      "name": "ApprovalIcon",
+      "dimensions": [
+        64,
+        60
+      ],
+      "image": "common/-3465141981947144980.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3465141981947144980"
+    },
+    {
+      "name": "IconHide",
+      "dimensions": [
+        64,
+        45
+      ],
+      "image": "common/-3437550795083527471.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3437550795083527471"
+    },
+    {
+      "name": "CommonCloseIcon@3x",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/-3334237698504257161.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3334237698504257161"
+    },
+    {
+      "name": "BtnQuickConsumableBg",
+      "dimensions": [
+        48,
+        72
+      ],
+      "image": "common/-3320706016017247045.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3320706016017247045"
+    },
+    {
+      "name": "FrameNewSystem",
+      "dimensions": [
+        167,
+        180
+      ],
+      "image": "common/-3316441574232744012.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3316441574232744012"
+    },
+    {
+      "name": "ComCircleFrame30RFHD",
+      "dimensions": [
+        66,
+        66
+      ],
+      "image": "common/-3315501511195615350.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3315501511195615350"
+    },
+    {
+      "name": "IconRarityStar",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-3297983845992944857.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3297983845992944857"
+    },
+    {
+      "name": "FrameCircleLongPress",
+      "dimensions": [
+        173,
+        173
+      ],
+      "image": "common/-3269267904772597185.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3269267904772597185"
+    },
+    {
+      "name": "IconBuffDownArrow",
+      "dimensions": [
+        26,
+        27
+      ],
+      "image": "common/-3233634260815408916.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3233634260815408916"
+    },
+    {
+      "name": "IconQuestUnlockMini",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-3216667969137841247.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3216667969137841247"
+    },
+    {
+      "name": "ChatBublleChangeIcon",
+      "dimensions": [
+        59,
+        50
+      ],
+      "image": "common/-3130200368295919070.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3130200368295919070"
+    },
+    {
+      "name": "FrameGuideOutline",
+      "dimensions": [
+        113,
+        115
+      ],
+      "image": "common/-3122293530074555300.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3122293530074555300"
+    },
+    {
+      "name": "HalfDotOutline18R@3x",
+      "dimensions": [
+        38,
+        38
+      ],
+      "image": "common/-3063205492420249225.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3063205492420249225"
+    },
+    {
+      "name": "DialogFrameOutline",
+      "dimensions": [
+        100,
+        100
+      ],
+      "image": "common/-3008992192646487557.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3008992192646487557"
+    },
+    {
+      "name": "OutlineGlow7px39RLeft@3x",
+      "dimensions": [
+        104,
+        114
+      ],
+      "image": "common/-3004912932188444356.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3004912932188444356"
+    },
+    {
+      "name": "CircleForPhone",
+      "dimensions": [
+        59,
+        59
+      ],
+      "image": "common/-3000442390988202129.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-3000442390988202129"
+    },
+    {
+      "name": "ButtonIconCancel",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-2969325788550866793.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2969325788550866793"
+    },
+    {
+      "name": "GamepadVibrationOff",
+      "dimensions": [
+        36,
+        27
+      ],
+      "image": "common/-2864890925997100136.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2864890925997100136"
+    },
+    {
+      "name": "IconRoleBtn",
+      "dimensions": [
+        18,
+        20
+      ],
+      "image": "common/-2853135506574944142.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2853135506574944142"
+    },
+    {
+      "name": "AvatarTrialDecoBG",
+      "dimensions": [
+        131,
+        129
+      ],
+      "image": "common/-2826258884600612940.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2826258884600612940"
+    },
+    {
+      "name": "IconInformation",
+      "dimensions": [
+        28,
+        25
+      ],
+      "image": "common/-2797337096719591717.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2797337096719591717"
+    },
+    {
+      "name": "HookIcon@3x",
+      "dimensions": [
+        63,
+        50
+      ],
+      "image": "common/-2778692130057771783.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2778692130057771783"
+    },
+    {
+      "name": "MpDotImgPre",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/-2772875359632369722.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2772875359632369722"
+    },
+    {
+      "name": "IconDownload@3x",
+      "dimensions": [
+        32,
+        31
+      ],
+      "image": "common/-2772289463774702732.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2772289463774702732"
+    },
+    {
+      "name": "ButtonIconConfirm",
+      "dimensions": [
+        31,
+        30
+      ],
+      "image": "common/-2752610977416396963.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2752610977416396963"
+    },
+    {
+      "name": "IconAutoSelect",
+      "dimensions": [
+        64,
+        64
+      ],
+      "image": "common/-2654041577015609690.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2654041577015609690"
+    },
+    {
+      "name": "OutlineGlowCorner42R@3x",
+      "dimensions": [
+        114,
+        114
+      ],
+      "image": "common/-2639118552131572533.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2639118552131572533"
+    },
+    {
+      "name": "IconAssignmentRecommend",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-2630295698057338070.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2630295698057338070"
+    },
+    {
+      "name": "IconDelete",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-2588302170269656623.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2588302170269656623"
+    },
+    {
+      "name": "IconPlus",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/-2546770148351405994.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2546770148351405994"
+    },
+    {
+      "name": "IconMoon",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-2543779762989943470.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2543779762989943470"
+    },
+    {
+      "name": "IconDetailArrow",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/-2540282365186799546.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2540282365186799546"
+    },
+    {
+      "name": "LevelRewardFrameTx",
+      "dimensions": [
+        90,
+        130
+      ],
+      "image": "common/-2521095287063275448.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2521095287063275448"
+    },
+    {
+      "name": "Img40PxFillet",
+      "dimensions": [
+        64,
+        64
+      ],
+      "image": "common/-2498069347532459209.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2498069347532459209"
+    },
+    {
+      "name": "CircleInnerGlow12R",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-2368386192788020476.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2368386192788020476"
+    },
+    {
+      "name": "EquipLockMark",
+      "dimensions": [
+        50,
+        52
+      ],
+      "image": "common/-2354043812413609360.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2354043812413609360"
+    },
+    {
+      "name": "AbyssPassRewardObtainBg",
+      "dimensions": [
+        33,
+        42
+      ],
+      "image": "common/-2256933804416349688.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2256933804416349688"
+    },
+    {
+      "name": "FrameGuideBtnLeftTop",
+      "dimensions": [
+        30,
+        35
+      ],
+      "image": "common/-2171055833274896149.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2171055833274896149"
+    },
+    {
+      "name": "OutlineGlow7px90RRight@3x",
+      "dimensions": [
+        114,
+        172
+      ],
+      "image": "common/-2146701961405907447.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2146701961405907447"
+    },
+    {
+      "name": "ComRoundCorner120R",
+      "dimensions": [
+        120,
+        120
+      ],
+      "image": "common/-2108320798279258399.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2108320798279258399"
+    },
+    {
+      "name": "PadListRowFrame",
+      "dimensions": [
+        96,
+        94
+      ],
+      "image": "common/-2084348678046221682.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-2084348678046221682"
+    },
+    {
+      "name": "IconDisable",
+      "dimensions": [
+        60,
+        60
+      ],
+      "image": "common/-1988978400318883084.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1988978400318883084"
+    },
+    {
+      "name": "MainMissionRecallIcon",
+      "dimensions": [
+        64,
+        64
+      ],
+      "image": "common/-1973330372539984492.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1973330372539984492"
+    },
+    {
+      "name": "ArrowFrameHint",
+      "dimensions": [
+        60,
+        60
+      ],
+      "image": "common/-1856415021956314905.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1856415021956314905"
+    },
+    {
+      "name": "DecoComStar1",
+      "dimensions": [
+        50,
+        50
+      ],
+      "image": "common/-1839265347525329436.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1839265347525329436"
+    },
+    {
+      "name": "IconApply_02",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-1780393252519907023.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1780393252519907023"
+    },
+    {
+      "name": "IconDisplay",
+      "dimensions": [
+        64,
+        57
+      ],
+      "image": "common/-1734812115403090473.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1734812115403090473"
+    },
+    {
+      "name": "HintLightCom",
+      "dimensions": [
+        128,
+        128
+      ],
+      "image": "common/-1636097095514994131.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1636097095514994131"
+    },
+    {
+      "name": "IconChallengeStarBroken",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/-1633877605549487598.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1633877605549487598"
+    },
+    {
+      "name": "RoundCornerFrame",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/-1627399958374147481.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1627399958374147481"
+    },
+    {
+      "name": "IconGoBtn",
+      "dimensions": [
+        46,
+        46
+      ],
+      "image": "common/-1604233664508675817.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1604233664508675817"
+    },
+    {
+      "name": "Outline5px128R",
+      "dimensions": [
+        130,
+        130
+      ],
+      "image": "common/-1590370034613133260.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1590370034613133260"
+    },
+    {
+      "name": "IconRogueEnterReward",
+      "dimensions": [
+        38,
+        43
+      ],
+      "image": "common/-1570493636359414011.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1570493636359414011"
+    },
+    {
+      "name": "CircleShadow",
+      "dimensions": [
+        120,
+        120
+      ],
+      "image": "common/-1560773516340764174.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1560773516340764174"
+    },
+    {
+      "name": "ComCircleFrame48R@3x",
+      "dimensions": [
+        98,
+        98
+      ],
+      "image": "common/-1548239806026110089.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1548239806026110089"
+    },
+    {
+      "name": "DecoArrow01",
+      "dimensions": [
+        28,
+        36
+      ],
+      "image": "common/-1444188353522859580.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1444188353522859580"
+    },
+    {
+      "name": "IconNature",
+      "dimensions": [
+        49,
+        41
+      ],
+      "image": "common/-1441200942107652821.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1441200942107652821"
+    },
+    {
+      "name": "ShopSelect@3x",
+      "dimensions": [
+        80,
+        80
+      ],
+      "image": "common/-1398088166673777615.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1398088166673777615"
+    },
+    {
+      "name": "ComIconCancel",
+      "dimensions": [
+        39,
+        38
+      ],
+      "image": "common/-1349496322204023841.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1349496322204023841"
+    },
+    {
+      "name": "LightGlow",
+      "dimensions": [
+        128,
+        128
+      ],
+      "image": "common/-1241766955835346145.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1241766955835346145"
+    },
+    {
+      "name": "IconHome",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/-1224557882817810923.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1224557882817810923"
+    },
+    {
+      "name": "PointerDot",
+      "dimensions": [
+        32,
+        42
+      ],
+      "image": "common/-1198044103812714196.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1198044103812714196"
+    },
+    {
+      "name": "IconGamePlayPlus",
+      "dimensions": [
+        48,
+        41
+      ],
+      "image": "common/-1196310884697891305.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1196310884697891305"
+    },
+    {
+      "name": "ComCircleFrame6RHD",
+      "dimensions": [
+        16,
+        16
+      ],
+      "image": "common/-1158069649599859234.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1158069649599859234"
+    },
+    {
+      "name": "Outline4px101R@3x",
+      "dimensions": [
+        204,
+        204
+      ],
+      "image": "common/-1045794745859705272.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1045794745859705272"
+    },
+    {
+      "name": "CompanyLogo",
+      "dimensions": [
+        44,
+        34
+      ],
+      "image": "common/-1021622416037576580.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-1021622416037576580"
+    },
+    {
+      "name": "OutlineComGlowLight",
+      "dimensions": [
+        180,
+        180
+      ],
+      "image": "common/-995065168966459708.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-995065168966459708"
+    },
+    {
+      "name": "GradualRightRound",
+      "dimensions": [
+        28,
+        31
+      ],
+      "image": "common/-984882241062722621.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-984882241062722621"
+    },
+    {
+      "name": "IconBookAudioType",
+      "dimensions": [
+        29,
+        31
+      ],
+      "image": "common/-971109889785607085.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-971109889785607085"
+    },
+    {
+      "name": "IconBtnBack",
+      "dimensions": [
+        48,
+        46
+      ],
+      "image": "common/-960500690238199246.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-960500690238199246"
+    },
+    {
+      "name": "OutlineGlow7px39R@3x",
+      "dimensions": [
+        114,
+        114
+      ],
+      "image": "common/-913778065764186853.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-913778065764186853"
+    },
+    {
+      "name": "IconChat@3x",
+      "dimensions": [
+        36,
+        32
+      ],
+      "image": "common/-849458675194358810.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-849458675194358810"
+    },
+    {
+      "name": "IconTalkShadow",
+      "dimensions": [
+        41,
+        41
+      ],
+      "image": "common/-811089697328586118.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-811089697328586118"
+    },
+    {
+      "name": "IconCompare",
+      "dimensions": [
+        25,
+        24
+      ],
+      "image": "common/-756332865901725051.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-756332865901725051"
+    },
+    {
+      "name": "IconApply_01",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/-738136043205550446.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-738136043205550446"
+    },
+    {
+      "name": "VoiceOff",
+      "dimensions": [
+        32,
+        34
+      ],
+      "image": "common/-645646395306418957.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-645646395306418957"
+    },
+    {
+      "name": "LevelRewardFramePattern",
+      "dimensions": [
+        90,
+        110
+      ],
+      "image": "common/-636807404381420562.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-636807404381420562"
+    },
+    {
+      "name": "MainMissionTempBackIcon",
+      "dimensions": [
+        56,
+        53
+      ],
+      "image": "common/-603779639774279018.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-603779639774279018"
+    },
+    {
+      "name": "Unfinish",
+      "dimensions": [
+        40,
+        40
+      ],
+      "image": "common/-584749798955368943.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-584749798955368943"
+    },
+    {
+      "name": "InfiniteIcon",
+      "dimensions": [
+        32,
+        22
+      ],
+      "image": "common/-544848777074781247.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-544848777074781247"
+    },
+    {
+      "name": "CommonDecoCircleMoon",
+      "dimensions": [
+        39,
+        39
+      ],
+      "image": "common/-450736754839457349.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-450736754839457349"
+    },
+    {
+      "name": "MapWarn",
+      "dimensions": [
+        164,
+        164
+      ],
+      "image": "common/-400682357126217501.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-400682357126217501"
+    },
+    {
+      "name": "Mouse3",
+      "dimensions": [
+        33,
+        32
+      ],
+      "image": "common/-380007802502518912.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-380007802502518912"
+    },
+    {
+      "name": "IconPlus2FHD",
+      "dimensions": [
+        40,
+        40
+      ],
+      "image": "common/-356160572133687657.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-356160572133687657"
+    },
+    {
+      "name": "OutlineRightRound",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/-352492637616619751.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-352492637616619751"
+    },
+    {
+      "name": "Outline1px8R",
+      "dimensions": [
+        16,
+        16
+      ],
+      "image": "common/-296540075330459252.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-296540075330459252"
+    },
+    {
+      "name": "AvatarTrialDecoLine",
+      "dimensions": [
+        114,
+        116
+      ],
+      "image": "common/-259116712128343228.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-259116712128343228"
+    },
+    {
+      "name": "FrameOutLineCricle74",
+      "dimensions": [
+        74,
+        74
+      ],
+      "image": "common/-201097903777893327.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-201097903777893327"
+    },
+    {
+      "name": "OutlineGuideProgress",
+      "dimensions": [
+        72,
+        72
+      ],
+      "image": "common/-176294479669391149.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-176294479669391149"
+    },
+    {
+      "name": "IconFlag",
+      "dimensions": [
+        16,
+        16
+      ],
+      "image": "common/-161680285742410946.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-161680285742410946"
+    },
+    {
+      "name": "Star",
+      "dimensions": [
+        27,
+        28
+      ],
+      "image": "common/-98250858285970237.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-98250858285970237"
+    },
+    {
+      "name": "MpDotImgGrey",
+      "dimensions": [
+        28,
+        28
+      ],
+      "image": "common/-58496638170197284.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-58496638170197284"
+    },
+    {
+      "name": "CommonDeletPanel",
+      "dimensions": [
+        60,
+        44
+      ],
+      "image": "common/-16294639818743267.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-16294639818743267"
+    },
+    {
+      "name": "FrameItemSelected2",
+      "dimensions": [
+        68,
+        68
+      ],
+      "image": "common/-4610190343201492.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "-4610190343201492"
+    },
+    {
+      "name": "SelectResBar",
+      "dimensions": [
+        58,
+        54
+      ],
+      "image": "common/55248590602933525.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "55248590602933525"
+    },
+    {
+      "name": "ItemSelect@3x",
+      "dimensions": [
+        66,
+        66
+      ],
+      "image": "common/61249031000822096.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "61249031000822096"
+    },
+    {
+      "name": "CommonDotPanel",
+      "dimensions": [
+        51,
+        35
+      ],
+      "image": "common/93349602694830156.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "93349602694830156"
+    },
+    {
+      "name": "IconRogueGashapon",
+      "dimensions": [
+        50,
+        49
+      ],
+      "image": "common/103619555596085257.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "103619555596085257"
+    },
+    {
+      "name": "HeadLine",
+      "dimensions": [
+        124,
+        124
+      ],
+      "image": "common/107668772937973259.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "107668772937973259"
+    },
+    {
+      "name": "Outline7px20RFHD",
+      "dimensions": [
+        44,
+        44
+      ],
+      "image": "common/140599666306375174.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "140599666306375174"
+    },
+    {
+      "name": "IconRankStar",
+      "dimensions": [
+        16,
+        16
+      ],
+      "image": "common/150923919162637282.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "150923919162637282"
+    },
+    {
+      "name": "Outline1px9R",
+      "dimensions": [
+        18,
+        18
+      ],
+      "image": "common/176476728831496888.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "176476728831496888"
+    },
+    {
+      "name": "IconNewStar",
+      "dimensions": [
+        45,
+        46
+      ],
+      "image": "common/189559679507160729.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "189559679507160729"
+    },
+    {
+      "name": "IconFixedPaths2",
+      "dimensions": [
+        42,
+        42
+      ],
+      "image": "common/194487171962932795.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "194487171962932795"
+    },
+    {
+      "name": "RogueTabPlanetBg",
+      "dimensions": [
+        29,
+        29
+      ],
+      "image": "common/228217816277984155.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "228217816277984155"
+    },
+    {
+      "name": "Outline1px52R",
+      "dimensions": [
+        104,
+        104
+      ],
+      "image": "common/230047030663057020.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "230047030663057020"
+    },
+    {
+      "name": "OutlineCorner4px18R",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/243437940897516325.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "243437940897516325"
+    },
+    {
+      "name": "IconGetMark@3x",
+      "dimensions": [
+        60,
+        60
+      ],
+      "image": "common/252013559965973283.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "252013559965973283"
+    },
+    {
+      "name": "Outline15px@3px",
+      "dimensions": [
+        44,
+        45
+      ],
+      "image": "common/265443022107913996.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "265443022107913996"
+    },
+    {
+      "name": "HalfOutline2px24R_Dot@3x",
+      "dimensions": [
+        40,
+        50
+      ],
+      "image": "common/303000380240720808.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "303000380240720808"
+    },
+    {
+      "name": "NumBaseImgA",
+      "dimensions": [
+        53,
+        53
+      ],
+      "image": "common/390265256255696049.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "390265256255696049"
+    },
+    {
+      "name": "IconCover",
+      "dimensions": [
+        38,
+        38
+      ],
+      "image": "common/393255136481985214.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "393255136481985214"
+    },
+    {
+      "name": "ButtonBgCircle",
+      "dimensions": [
+        43,
+        42
+      ],
+      "image": "common/408125316847110812.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "408125316847110812"
+    },
+    {
+      "name": "IconFinish",
+      "dimensions": [
+        35,
+        35
+      ],
+      "image": "common/434185223556533725.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "434185223556533725"
+    },
+    {
+      "name": "Outline2px12R",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/449041970048684695.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "449041970048684695"
+    },
+    {
+      "name": "RewardIcon",
+      "dimensions": [
+        55,
+        63
+      ],
+      "image": "common/485084482935983214.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "485084482935983214"
+    },
+    {
+      "name": "QuitBtn",
+      "dimensions": [
+        21,
+        26
+      ],
+      "image": "common/529160562122507859.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "529160562122507859"
+    },
+    {
+      "name": "RightDownShadow",
+      "dimensions": [
+        60,
+        60
+      ],
+      "image": "common/543660990262334998.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "543660990262334998"
+    },
+    {
+      "name": "IconRogueData",
+      "dimensions": [
+        39,
+        34
+      ],
+      "image": "common/683905758168190910.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "683905758168190910"
+    },
+    {
+      "name": "SepLine",
+      "dimensions": [
+        17,
+        16
+      ],
+      "image": "common/685889754647670171.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "685889754647670171"
+    },
+    {
+      "name": "ToastFrameBg",
+      "dimensions": [
+        162,
+        162
+      ],
+      "image": "common/721343031901001283.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "721343031901001283"
+    },
+    {
+      "name": "AvatarTrialDeco",
+      "dimensions": [
+        102,
+        102
+      ],
+      "image": "common/774692650200295789.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "774692650200295789"
+    },
+    {
+      "name": "IconRogueEnteExplore",
+      "dimensions": [
+        50,
+        50
+      ],
+      "image": "common/775194824953078643.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "775194824953078643"
+    },
+    {
+      "name": "RankIconResultLevelFrame",
+      "dimensions": [
+        79,
+        79
+      ],
+      "image": "common/872683510577389082.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "872683510577389082"
+    },
+    {
+      "name": "RankIconFrame04",
+      "dimensions": [
+        96,
+        96
+      ],
+      "image": "common/877262441008173067.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "877262441008173067"
+    },
+    {
+      "name": "IconBuffUpArrow",
+      "dimensions": [
+        26,
+        27
+      ],
+      "image": "common/878840241089171842.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "878840241089171842"
+    },
+    {
+      "name": "IconToDeleteBig",
+      "dimensions": [
+        90,
+        109
+      ],
+      "image": "common/907894200587589489.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "907894200587589489"
+    },
+    {
+      "name": "OutlineGlowCorner26R@3x",
+      "dimensions": [
+        82,
+        82
+      ],
+      "image": "common/966331461218868040.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "966331461218868040"
+    },
+    {
+      "name": "IconChange@3x",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/984498589136825902.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "984498589136825902"
+    },
+    {
+      "name": "IconMarket",
+      "dimensions": [
+        31,
+        33
+      ],
+      "image": "common/1025271243861854977.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1025271243861854977"
+    },
+    {
+      "name": "FrameComGlowBlue01",
+      "dimensions": [
+        35,
+        35
+      ],
+      "image": "common/1109879270645895064.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1109879270645895064"
+    },
+    {
+      "name": "BackIcon",
+      "dimensions": [
+        40,
+        40
+      ],
+      "image": "common/1160092335139590012.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1160092335139590012"
+    },
+    {
+      "name": "IconStatusArrow",
+      "dimensions": [
+        35,
+        36
+      ],
+      "image": "common/1162887773451767858.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1162887773451767858"
+    },
+    {
+      "name": "ComCircleFrame36RFHD",
+      "dimensions": [
+        78,
+        78
+      ],
+      "image": "common/1166371691431802724.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1166371691431802724"
+    },
+    {
+      "name": "ExpandArrowIcon",
+      "dimensions": [
+        30,
+        22
+      ],
+      "image": "common/1205287173887228413.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1205287173887228413"
+    },
+    {
+      "name": "ArrowMiniMapEntry",
+      "dimensions": [
+        28,
+        20
+      ],
+      "image": "common/1210831515310663207.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1210831515310663207"
+    },
+    {
+      "name": "IconGetMarkInvert",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/1213614171958573431.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1213614171958573431"
+    },
+    {
+      "name": "MapMask",
+      "dimensions": [
+        156,
+        156
+      ],
+      "image": "common/1260888352611998832.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1260888352611998832"
+    },
+    {
+      "name": "CommonFrameTips",
+      "dimensions": [
+        80,
+        79
+      ],
+      "image": "common/1279466129089970754.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1279466129089970754"
+    },
+    {
+      "name": "IconAddFriend",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/1357175714371414095.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1357175714371414095"
+    },
+    {
+      "name": "DoubleRoundCorner20R",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/1372300846198807800.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1372300846198807800"
+    },
+    {
+      "name": "NetStatusLevel3",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/1375662590702839823.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1375662590702839823"
+    },
+    {
+      "name": "ClockParkMainEntrance_BgPattern9",
+      "dimensions": [
+        256,
+        256
+      ],
+      "image": "common/1380352610079002243.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1380352610079002243"
+    },
+    {
+      "name": "DecoCorner",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/1385982805047420462.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1385982805047420462"
+    },
+    {
+      "name": "FrameComGlowBlue",
+      "dimensions": [
+        45,
+        45
+      ],
+      "image": "common/1432109176805764899.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1432109176805764899"
+    },
+    {
+      "name": "IconRankPoint",
+      "dimensions": [
+        28,
+        28
+      ],
+      "image": "common/1490602365344782890.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1490602365344782890"
+    },
+    {
+      "name": "OverallIcon",
+      "dimensions": [
+        38,
+        42
+      ],
+      "image": "common/1492613453595248058.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1492613453595248058"
+    },
+    {
+      "name": "IconChronicle",
+      "dimensions": [
+        39,
+        33
+      ],
+      "image": "common/1539307515679625771.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1539307515679625771"
+    },
+    {
+      "name": "PhoneRingIcon",
+      "dimensions": [
+        80,
+        80
+      ],
+      "image": "common/1567746630063899576.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1567746630063899576"
+    },
+    {
+      "name": "Outline2px",
+      "dimensions": [
+        20,
+        20
+      ],
+      "image": "common/1570810969930648255.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1570810969930648255"
+    },
+    {
+      "name": "IconLeave",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/1588146569720326268.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1588146569720326268"
+    },
+    {
+      "name": "IconLittleStar",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/1598804817351657582.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1598804817351657582"
+    },
+    {
+      "name": "IconShare",
+      "dimensions": [
+        26,
+        26
+      ],
+      "image": "common/1601678784512178756.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1601678784512178756"
+    },
+    {
+      "name": "Rhombus3Px",
+      "dimensions": [
+        50,
+        50
+      ],
+      "image": "common/1627774556542441374.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1627774556542441374"
+    },
+    {
+      "name": "IconPaste",
+      "dimensions": [
+        29,
+        31
+      ],
+      "image": "common/1635713939488677415.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1635713939488677415"
+    },
+    {
+      "name": "FriendOnlineIcon2P",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/1642303430097666600.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1642303430097666600"
+    },
+    {
+      "name": "ShopItemSelectedOutline",
+      "dimensions": [
+        50,
+        50
+      ],
+      "image": "common/1701263053279463679.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1701263053279463679"
+    },
+    {
+      "name": "IconIntelligentDelete",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/1763348003182034836.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1763348003182034836"
+    },
+    {
+      "name": "IconArrowPart",
+      "dimensions": [
+        23,
+        29
+      ],
+      "image": "common/1778653411223949600.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1778653411223949600"
+    },
+    {
+      "name": "Outline2px34R@3x",
+      "dimensions": [
+        70,
+        70
+      ],
+      "image": "common/1789053752851925120.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1789053752851925120"
+    },
+    {
+      "name": "DecoSlash",
+      "dimensions": [
+        56,
+        56
+      ],
+      "image": "common/1830570104032528127.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1830570104032528127"
+    },
+    {
+      "name": "LevelRewardIconWorld",
+      "dimensions": [
+        61,
+        60
+      ],
+      "image": "common/1841795340310891172.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1841795340310891172"
+    },
+    {
+      "name": "ProgressBarTalkInfo",
+      "dimensions": [
+        59,
+        68
+      ],
+      "image": "common/1866037900273773386.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1866037900273773386"
+    },
+    {
+      "name": "IconRogueEnteSavedata",
+      "dimensions": [
+        53,
+        53
+      ],
+      "image": "common/1895818566981353592.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1895818566981353592"
+    },
+    {
+      "name": "OutlineGuideTalk",
+      "dimensions": [
+        96,
+        88
+      ],
+      "image": "common/1934542421604151613.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1934542421604151613"
+    },
+    {
+      "name": "FrameComGlowDeepBlue",
+      "dimensions": [
+        45,
+        45
+      ],
+      "image": "common/1960381433655934756.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1960381433655934756"
+    },
+    {
+      "name": "RedDot",
+      "dimensions": [
+        20,
+        20
+      ],
+      "image": "common/1978264190102239391.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1978264190102239391"
+    },
+    {
+      "name": "IconInfo2",
+      "dimensions": [
+        36,
+        31
+      ],
+      "image": "common/1983962363726809478.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "1983962363726809478"
+    },
+    {
+      "name": "IconRecycle@3x",
+      "dimensions": [
+        29,
+        29
+      ],
+      "image": "common/2005270949621018408.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2005270949621018408"
+    },
+    {
+      "name": "LineFourCornerGlow4px",
+      "dimensions": [
+        80,
+        80
+      ],
+      "image": "common/2015121815361463020.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2015121815361463020"
+    },
+    {
+      "name": "HalfOutlineGlow2px28R@3x",
+      "dimensions": [
+        64,
+        88
+      ],
+      "image": "common/2103714591426430905.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2103714591426430905"
+    },
+    {
+      "name": "IconWarning 1",
+      "dimensions": [
+        25,
+        25
+      ],
+      "image": "common/2126360638064490100.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2126360638064490100"
+    },
+    {
+      "name": "StarDes",
+      "dimensions": [
+        37,
+        35
+      ],
+      "image": "common/2136681933648399586.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2136681933648399586"
+    },
+    {
+      "name": "IconSelectedArrow",
+      "dimensions": [
+        28,
+        32
+      ],
+      "image": "common/2167712152543858745.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2167712152543858745"
+    },
+    {
+      "name": "ComRoundCorner26R",
+      "dimensions": [
+        66,
+        62
+      ],
+      "image": "common/2173620960015141789.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2173620960015141789"
+    },
+    {
+      "name": "NewMarkFrame",
+      "dimensions": [
+        54,
+        54
+      ],
+      "image": "common/2205246679819362940.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2205246679819362940"
+    },
+    {
+      "name": "ComCircleFrame25R",
+      "dimensions": [
+        50,
+        50
+      ],
+      "image": "common/2227717412609314438.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2227717412609314438"
+    },
+    {
+      "name": "FrameHead04",
+      "dimensions": [
+        80,
+        80
+      ],
+      "image": "common/2253832691436384922.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2253832691436384922"
+    },
+    {
+      "name": "HalfOutline2px30R_Dot@3x",
+      "dimensions": [
+        45,
+        62
+      ],
+      "image": "common/2267945623616608125.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2267945623616608125"
+    },
+    {
+      "name": "FrameNatureBlack",
+      "dimensions": [
+        27,
+        27
+      ],
+      "image": "common/2270504213345448822.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2270504213345448822"
+    },
+    {
+      "name": "IconArrowSliced",
+      "dimensions": [
+        30,
+        24
+      ],
+      "image": "common/2285337408747143093.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2285337408747143093"
+    },
+    {
+      "name": "IconTeam",
+      "dimensions": [
+        30,
+        28
+      ],
+      "image": "common/2294972079804370674.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2294972079804370674"
+    },
+    {
+      "name": "IconPetSite",
+      "dimensions": [
+        29,
+        33
+      ],
+      "image": "common/2378696103898490621.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2378696103898490621"
+    },
+    {
+      "name": "IconCompleteStar",
+      "dimensions": [
+        45,
+        46
+      ],
+      "image": "common/2427700722947761702.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2427700722947761702"
+    },
+    {
+      "name": "IconReceive@3x",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/2553567448995560665.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2553567448995560665"
+    },
+    {
+      "name": "ComRoundCorner50R",
+      "dimensions": [
+        50,
+        50
+      ],
+      "image": "common/2555129045456909274.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2555129045456909274"
+    },
+    {
+      "name": "ComOverlapOutline30RHD",
+      "dimensions": [
+        35,
+        35
+      ],
+      "image": "common/2578528917623134343.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2578528917623134343"
+    },
+    {
+      "name": "IconRoundEllipsis",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/2606715566446693218.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2606715566446693218"
+    },
+    {
+      "name": "SingleSelectIcon",
+      "dimensions": [
+        20,
+        20
+      ],
+      "image": "common/2634634457779566540.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2634634457779566540"
+    },
+    {
+      "name": "FramePSDownload",
+      "dimensions": [
+        52,
+        52
+      ],
+      "image": "common/2738057856012437569.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2738057856012437569"
+    },
+    {
+      "name": "Outline5px",
+      "dimensions": [
+        18,
+        18
+      ],
+      "image": "common/2752054476895339448.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2752054476895339448"
+    },
+    {
+      "name": "IconAssignmentUp",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/2801702674127029516.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2801702674127029516"
+    },
+    {
+      "name": "RoundCornerShadow@3x",
+      "dimensions": [
+        96,
+        120
+      ],
+      "image": "common/2854832040771029674.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2854832040771029674"
+    },
+    {
+      "name": "CustomerServiceIcon",
+      "dimensions": [
+        42,
+        44
+      ],
+      "image": "common/2871748777980683191.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2871748777980683191"
+    },
+    {
+      "name": "OutlineGlow",
+      "dimensions": [
+        121,
+        121
+      ],
+      "image": "common/2961023891094029913.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2961023891094029913"
+    },
+    {
+      "name": "IconQuestUnlockCircle",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/2974607793126173302.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "2974607793126173302"
+    },
+    {
+      "name": "CopyIcon",
+      "dimensions": [
+        27,
+        32
+      ],
+      "image": "common/3022413190818641011.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3022413190818641011"
+    },
+    {
+      "name": "IconLocation@3x",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/3056161008929854060.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3056161008929854060"
+    },
+    {
+      "name": "FrameCircleSlice",
+      "dimensions": [
+        68,
+        68
+      ],
+      "image": "common/3057819991556441780.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3057819991556441780"
+    },
+    {
+      "name": "Outline4px14R@3x",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/3145552254579492277.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3145552254579492277"
+    },
+    {
+      "name": "IconKick",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/3198693826915575610.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3198693826915575610"
+    },
+    {
+      "name": "FinishMarkOutline",
+      "dimensions": [
+        66,
+        58
+      ],
+      "image": "common/3224923314668599706.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3224923314668599706"
+    },
+    {
+      "name": "RankIconFrame01",
+      "dimensions": [
+        124,
+        124
+      ],
+      "image": "common/3309074654569435767.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3309074654569435767"
+    },
+    {
+      "name": "Outline4px",
+      "dimensions": [
+        16,
+        16
+      ],
+      "image": "common/3329781132294104728.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3329781132294104728"
+    },
+    {
+      "name": "ComRoundCorner25R",
+      "dimensions": [
+        25,
+        25
+      ],
+      "image": "common/3424127068635692204.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3424127068635692204"
+    },
+    {
+      "name": "NetStatusLevel1",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/3433865478990269352.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3433865478990269352"
+    },
+    {
+      "name": "IconChallengeShine",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/3446454377790166830.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3446454377790166830"
+    },
+    {
+      "name": "IconQuick",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/3469362649532933351.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3469362649532933351"
+    },
+    {
+      "name": "FrameOutLineCricle116",
+      "dimensions": [
+        117,
+        117
+      ],
+      "image": "common/3477212666571915097.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3477212666571915097"
+    },
+    {
+      "name": "Outline4px36R@3x",
+      "dimensions": [
+        74,
+        74
+      ],
+      "image": "common/3503348835897660545.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3503348835897660545"
+    },
+    {
+      "name": "RogueTalkIcon",
+      "dimensions": [
+        40,
+        35
+      ],
+      "image": "common/3509546710290636237.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3509546710290636237"
+    },
+    {
+      "name": "Outline2px42R@3x",
+      "dimensions": [
+        86,
+        86
+      ],
+      "image": "common/3547793871046449343.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3547793871046449343"
+    },
+    {
+      "name": "Outline4pxFHDSpacing",
+      "dimensions": [
+        18,
+        18
+      ],
+      "image": "common/3549922587401467924.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3549922587401467924"
+    },
+    {
+      "name": "FrameFunctionRightRound",
+      "dimensions": [
+        24,
+        23
+      ],
+      "image": "common/3563870767072325889.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3563870767072325889"
+    },
+    {
+      "name": "IconRefresh",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/3565385761825717614.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3565385761825717614"
+    },
+    {
+      "name": "RailLoopRing",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/3566808366656320291.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3566808366656320291"
+    },
+    {
+      "name": "PadTabNormalImage_Fill",
+      "dimensions": [
+        18,
+        20
+      ],
+      "image": "common/3569556169383674202.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3569556169383674202"
+    },
+    {
+      "name": "TemporaryIcon02",
+      "dimensions": [
+        51,
+        51
+      ],
+      "image": "common/3682449060429344339.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3682449060429344339"
+    },
+    {
+      "name": "Outline4px40RFHD",
+      "dimensions": [
+        84,
+        84
+      ],
+      "image": "common/3688407786565641705.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3688407786565641705"
+    },
+    {
+      "name": "ShadowOutline2px42R@3x",
+      "dimensions": [
+        120,
+        120
+      ],
+      "image": "common/3744499703864878068.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3744499703864878068"
+    },
+    {
+      "name": "CommonWhiteBgShadow",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/3753078357492265982.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3753078357492265982"
+    },
+    {
+      "name": "IconSetting",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/3753595803274842875.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3753595803274842875"
+    },
+    {
+      "name": "ShadowOutline2px30R@3x",
+      "dimensions": [
+        88,
+        88
+      ],
+      "image": "common/3762464700043186034.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3762464700043186034"
+    },
+    {
+      "name": "IconWeather",
+      "dimensions": [
+        49,
+        44
+      ],
+      "image": "common/3840736867465643420.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3840736867465643420"
+    },
+    {
+      "name": "ComBtnInnerOutline2",
+      "dimensions": [
+        62,
+        62
+      ],
+      "image": "common/3922258523607950654.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3922258523607950654"
+    },
+    {
+      "name": "IconFilter@3x",
+      "dimensions": [
+        30,
+        31
+      ],
+      "image": "common/3936699229575500036.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3936699229575500036"
+    },
+    {
+      "name": "IconTalkSetting",
+      "dimensions": [
+        32,
+        33
+      ],
+      "image": "common/3966998272243170579.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3966998272243170579"
+    },
+    {
+      "name": "IconBatch",
+      "dimensions": [
+        32,
+        29
+      ],
+      "image": "common/3968167648037557271.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3968167648037557271"
+    },
+    {
+      "name": "IconRotation@3x",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/3974228995580820281.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3974228995580820281"
+    },
+    {
+      "name": "IconAppeal",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/3977947483641294647.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "3977947483641294647"
+    },
+    {
+      "name": "UnlockIconFHD",
+      "dimensions": [
+        54,
+        64
+      ],
+      "image": "common/4044263788000459259.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4044263788000459259"
+    },
+    {
+      "name": "IconEdit",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/4134135124770949866.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4134135124770949866"
+    },
+    {
+      "name": "auto_login_loading",
+      "dimensions": [
+        104,
+        104
+      ],
+      "image": "common/4140819910690000303.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4140819910690000303"
+    },
+    {
+      "name": "IconRogueEnterShop",
+      "dimensions": [
+        50,
+        50
+      ],
+      "image": "common/4174097879444288490.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4174097879444288490"
+    },
+    {
+      "name": "FrameHead03",
+      "dimensions": [
+        36,
+        52
+      ],
+      "image": "common/4220033115282118524.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4220033115282118524"
+    },
+    {
+      "name": "OutlineDot2px45R@3x",
+      "dimensions": [
+        90,
+        90
+      ],
+      "image": "common/4266547771918518901.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4266547771918518901"
+    },
+    {
+      "name": "ComCircleFrame12R",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/4297185796901944398.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4297185796901944398"
+    },
+    {
+      "name": "IconTeamReplace",
+      "dimensions": [
+        44,
+        44
+      ],
+      "image": "common/4313047786048387951.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4313047786048387951"
+    },
+    {
+      "name": "FrameFunctionSmallRound",
+      "dimensions": [
+        27,
+        27
+      ],
+      "image": "common/4321602828840747324.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4321602828840747324"
+    },
+    {
+      "name": "IconRogueTournTitanFrameIconCollect",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/4338125931700348867.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4338125931700348867"
+    },
+    {
+      "name": "FrameGuideBtnRightTop",
+      "dimensions": [
+        35,
+        28
+      ],
+      "image": "common/4345398097836044737.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4345398097836044737"
+    },
+    {
+      "name": "CosmicConflictIcon",
+      "dimensions": [
+        40,
+        39
+      ],
+      "image": "common/4472590743045962745.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4472590743045962745"
+    },
+    {
+      "name": "IconOutside",
+      "dimensions": [
+        59,
+        40
+      ],
+      "image": "common/4511433321793721956.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4511433321793721956"
+    },
+    {
+      "name": "CultivateSelectDeco",
+      "dimensions": [
+        78,
+        78
+      ],
+      "image": "common/4547013413562797568.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4547013413562797568"
+    },
+    {
+      "name": "IconFavorite",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/4571313968799931573.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4571313968799931573"
+    },
+    {
+      "name": "IconGlowStar@3x",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/4636502016911706416.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4636502016911706416"
+    },
+    {
+      "name": "IconOrderUp@3x",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/4647134557009603621.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4647134557009603621"
+    },
+    {
+      "name": "ButtonInfoBg",
+      "dimensions": [
+        70,
+        70
+      ],
+      "image": "common/4689790733568272540.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4689790733568272540"
+    },
+    {
+      "name": "Outline8px76R@3x",
+      "dimensions": [
+        156,
+        156
+      ],
+      "image": "common/4693251841633547463.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4693251841633547463"
+    },
+    {
+      "name": "FrameGuideBtnRectangleLight",
+      "dimensions": [
+        120,
+        120
+      ],
+      "image": "common/4744160956066974416.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4744160956066974416"
+    },
+    {
+      "name": "DotRingDeco",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/4795998552174132426.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4795998552174132426"
+    },
+    {
+      "name": "Outline2px36RFHD",
+      "dimensions": [
+        78,
+        78
+      ],
+      "image": "common/4807284527900323543.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4807284527900323543"
+    },
+    {
+      "name": "FrameCom8CT",
+      "dimensions": [
+        64,
+        64
+      ],
+      "image": "common/4896762075753891807.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4896762075753891807"
+    },
+    {
+      "name": "IconFinish@3x",
+      "dimensions": [
+        28,
+        28
+      ],
+      "image": "common/4925780124953114390.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4925780124953114390"
+    },
+    {
+      "name": "IconCheckMark",
+      "dimensions": [
+        39,
+        34
+      ],
+      "image": "common/4941423586490102825.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4941423586490102825"
+    },
+    {
+      "name": "OutlineGlowCorner26R@3x_01",
+      "dimensions": [
+        60,
+        60
+      ],
+      "image": "common/4972382276737876333.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4972382276737876333"
+    },
+    {
+      "name": "ComTriangleArrow",
+      "dimensions": [
+        36,
+        34
+      ],
+      "image": "common/4990999323986087555.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "4990999323986087555"
+    },
+    {
+      "name": "Outline1px128R",
+      "dimensions": [
+        256,
+        256
+      ],
+      "image": "common/5108675812527133968.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5108675812527133968"
+    },
+    {
+      "name": "FrameTag01",
+      "dimensions": [
+        32,
+        24
+      ],
+      "image": "common/5163209461845884928.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5163209461845884928"
+    },
+    {
+      "name": "BoxIcon",
+      "dimensions": [
+        45,
+        32
+      ],
+      "image": "common/5232335414629260120.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5232335414629260120"
+    },
+    {
+      "name": "RankIconFrame06",
+      "dimensions": [
+        58,
+        58
+      ],
+      "image": "common/5254904074028614884.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5254904074028614884"
+    },
+    {
+      "name": "PhoneIcon",
+      "dimensions": [
+        60,
+        80
+      ],
+      "image": "common/5264164015511737042.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5264164015511737042"
+    },
+    {
+      "name": "IconRogueEnterInfo",
+      "dimensions": [
+        45,
+        42
+      ],
+      "image": "common/5280801568752685820.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5280801568752685820"
+    },
+    {
+      "name": "IconAddHollow",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/5307161888820192038.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5307161888820192038"
+    },
+    {
+      "name": "FrameMiniMapEntryType2",
+      "dimensions": [
+        80,
+        84
+      ],
+      "image": "common/5329210674639142520.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5329210674639142520"
+    },
+    {
+      "name": "TimerIcon@3x",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/5332831805840684094.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5332831805840684094"
+    },
+    {
+      "name": "OutlineGlowCorner26R@3x_02",
+      "dimensions": [
+        72,
+        68
+      ],
+      "image": "common/5384401636298182888.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5384401636298182888"
+    },
+    {
+      "name": "IconCancel",
+      "dimensions": [
+        26,
+        26
+      ],
+      "image": "common/5384920372442770148.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5384920372442770148"
+    },
+    {
+      "name": "IconBuffSqureMark_01",
+      "dimensions": [
+        22,
+        25
+      ],
+      "image": "common/5497587278225199655.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5497587278225199655"
+    },
+    {
+      "name": "Circle42RGlowFHD_Mask",
+      "dimensions": [
+        102,
+        102
+      ],
+      "image": "common/5527312894847200798.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5527312894847200798"
+    },
+    {
+      "name": "EquipUnlockMark",
+      "dimensions": [
+        50,
+        52
+      ],
+      "image": "common/5665474373490961654.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5665474373490961654"
+    },
+    {
+      "name": "Shop",
+      "dimensions": [
+        26,
+        22
+      ],
+      "image": "common/5672953008411346464.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5672953008411346464"
+    },
+    {
+      "name": "ComIconRewardSmall",
+      "dimensions": [
+        40,
+        38
+      ],
+      "image": "common/5703374184973295322.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5703374184973295322"
+    },
+    {
+      "name": "IconCamera",
+      "dimensions": [
+        32,
+        29
+      ],
+      "image": "common/5797740014806726413.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5797740014806726413"
+    },
+    {
+      "name": "GetIcon",
+      "dimensions": [
+        59,
+        60
+      ],
+      "image": "common/5847684244508391104.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5847684244508391104"
+    },
+    {
+      "name": "FinishMarkFill",
+      "dimensions": [
+        62,
+        49
+      ],
+      "image": "common/5862161008392980377.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5862161008392980377"
+    },
+    {
+      "name": "OutlineGlow7px",
+      "dimensions": [
+        114,
+        114
+      ],
+      "image": "common/5869517739250033429.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5869517739250033429"
+    },
+    {
+      "name": "OutlineGlow7px22R@3x",
+      "dimensions": [
+        100,
+        100
+      ],
+      "image": "common/5873724779906837747.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5873724779906837747"
+    },
+    {
+      "name": "RewardIconGet",
+      "dimensions": [
+        57,
+        64
+      ],
+      "image": "common/5991340433406584579.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "5991340433406584579"
+    },
+    {
+      "name": "ActivityTimeIcon",
+      "dimensions": [
+        44,
+        44
+      ],
+      "image": "common/6005477729276457827.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6005477729276457827"
+    },
+    {
+      "name": "ComRoundCorner12R",
+      "dimensions": [
+        18,
+        18
+      ],
+      "image": "common/6013157347502203077.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6013157347502203077"
+    },
+    {
+      "name": "PromotionStarSmall@3x",
+      "dimensions": [
+        20,
+        32
+      ],
+      "image": "common/6085768367996472679.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6085768367996472679"
+    },
+    {
+      "name": "icontips",
+      "dimensions": [
+        23,
+        23
+      ],
+      "image": "common/6119481609294371191.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6119481609294371191"
+    },
+    {
+      "name": "DialogFrameDeco2",
+      "dimensions": [
+        118,
+        114
+      ],
+      "image": "common/6171257726787993976.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6171257726787993976"
+    },
+    {
+      "name": "FrameGacha",
+      "dimensions": [
+        100,
+        100
+      ],
+      "image": "common/6184061714821950047.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6184061714821950047"
+    },
+    {
+      "name": "IconAbyss",
+      "dimensions": [
+        35,
+        34
+      ],
+      "image": "common/6202362686507385252.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6202362686507385252"
+    },
+    {
+      "name": "CommonBtnBase",
+      "dimensions": [
+        18,
+        18
+      ],
+      "image": "common/6248716219447910345.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6248716219447910345"
+    },
+    {
+      "name": "CommonBackIcon",
+      "dimensions": [
+        34,
+        32
+      ],
+      "image": "common/6273308846723693658.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6273308846723693658"
+    },
+    {
+      "name": "bg_black_mask",
+      "dimensions": [
+        64,
+        64
+      ],
+      "image": "common/6305079082172064375.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6305079082172064375"
+    },
+    {
+      "name": "IconArtDecoStar",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/6311415201008727375.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6311415201008727375"
+    },
+    {
+      "name": "Triangle4px80W@3x",
+      "dimensions": [
+        80,
+        70
+      ],
+      "image": "common/6315318358087602342.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6315318358087602342"
+    },
+    {
+      "name": "RogueBtnIcon",
+      "dimensions": [
+        40,
+        40
+      ],
+      "image": "common/6368538982399486478.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6368538982399486478"
+    },
+    {
+      "name": "TagAdditionalLittleIcon",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/6433715985498614936.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6433715985498614936"
+    },
+    {
+      "name": "ShopItemDeco",
+      "dimensions": [
+        244,
+        277
+      ],
+      "image": "common/6439360205114759273.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6439360205114759273"
+    },
+    {
+      "name": "IconLike",
+      "dimensions": [
+        36,
+        32
+      ],
+      "image": "common/6458581226946205038.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6458581226946205038"
+    },
+    {
+      "name": "CommonTabUnderOutline1",
+      "dimensions": [
+        40,
+        35
+      ],
+      "image": "common/6465672966608236561.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6465672966608236561"
+    },
+    {
+      "name": "IconSweep",
+      "dimensions": [
+        36,
+        26
+      ],
+      "image": "common/6503159470340985952.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6503159470340985952"
+    },
+    {
+      "name": "IconPause",
+      "dimensions": [
+        17,
+        20
+      ],
+      "image": "common/6509596442538412490.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6509596442538412490"
+    },
+    {
+      "name": "IconAttributeLock_White",
+      "dimensions": [
+        34,
+        38
+      ],
+      "image": "common/6511427976237387809.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6511427976237387809"
+    },
+    {
+      "name": "Outline8px198R@3x",
+      "dimensions": [
+        198,
+        198
+      ],
+      "image": "common/6526212460605468387.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6526212460605468387"
+    },
+    {
+      "name": "BlackBtnImg",
+      "dimensions": [
+        20,
+        20
+      ],
+      "image": "common/6538415575999904672.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6538415575999904672"
+    },
+    {
+      "name": "DecoOutlineStar",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/6571742550017052432.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6571742550017052432"
+    },
+    {
+      "name": "SkinItemOutline",
+      "dimensions": [
+        260,
+        293
+      ],
+      "image": "common/6607687059229836907.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6607687059229836907"
+    },
+    {
+      "name": "ComIconCheck",
+      "dimensions": [
+        48,
+        33
+      ],
+      "image": "common/6620753392991997227.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6620753392991997227"
+    },
+    {
+      "name": "ArrowIcon",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/6631554331202858005.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6631554331202858005"
+    },
+    {
+      "name": "Record",
+      "dimensions": [
+        20,
+        22
+      ],
+      "image": "common/6644292800905107377.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6644292800905107377"
+    },
+    {
+      "name": "IconGoSmall",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/6660194146965591997.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6660194146965591997"
+    },
+    {
+      "name": "IconArtDecoUp",
+      "dimensions": [
+        28,
+        28
+      ],
+      "image": "common/6694023474525264221.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6694023474525264221"
+    },
+    {
+      "name": "IconMatch@3x",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/6698336667673816119.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6698336667673816119"
+    },
+    {
+      "name": "IconDelete2",
+      "dimensions": [
+        64,
+        64
+      ],
+      "image": "common/6700485123970213316.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6700485123970213316"
+    },
+    {
+      "name": "IconAssembly",
+      "dimensions": [
+        32,
+        31
+      ],
+      "image": "common/6702803341635388767.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6702803341635388767"
+    },
+    {
+      "name": "IconAdd",
+      "dimensions": [
+        100,
+        100
+      ],
+      "image": "common/6704413559836150865.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6704413559836150865"
+    },
+    {
+      "name": "OutlineGlow_Gradient",
+      "dimensions": [
+        121,
+        121
+      ],
+      "image": "common/6738929585356637774.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6738929585356637774"
+    },
+    {
+      "name": "OutlineDeco",
+      "dimensions": [
+        88,
+        88
+      ],
+      "image": "common/6791251206340014771.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6791251206340014771"
+    },
+    {
+      "name": "FrameTabBg",
+      "dimensions": [
+        136,
+        136
+      ],
+      "image": "common/6803059428499106032.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6803059428499106032"
+    },
+    {
+      "name": "IconRotateSwitch@3x",
+      "dimensions": [
+        56,
+        56
+      ],
+      "image": "common/6803613422814044258.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6803613422814044258"
+    },
+    {
+      "name": "IconAeonSkillPoint",
+      "dimensions": [
+        46,
+        48
+      ],
+      "image": "common/6824993803662880066.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6824993803662880066"
+    },
+    {
+      "name": "IconWarning",
+      "dimensions": [
+        32,
+        27
+      ],
+      "image": "common/6832173847527161498.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6832173847527161498"
+    },
+    {
+      "name": "FrameOutlineWhite",
+      "dimensions": [
+        19,
+        19
+      ],
+      "image": "common/6845634667312919961.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6845634667312919961"
+    },
+    {
+      "name": "FrameBtnPress",
+      "dimensions": [
+        63,
+        62
+      ],
+      "image": "common/6895822341615921050.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6895822341615921050"
+    },
+    {
+      "name": "IconTeamLarge",
+      "dimensions": [
+        108,
+        82
+      ],
+      "image": "common/6947622723395456693.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "6947622723395456693"
+    },
+    {
+      "name": "Outline3px24R",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/7068440109256167098.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7068440109256167098"
+    },
+    {
+      "name": "Outline4px48R@3x",
+      "dimensions": [
+        98,
+        98
+      ],
+      "image": "common/7106257660592628449.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7106257660592628449"
+    },
+    {
+      "name": "NeedFormulaIcon",
+      "dimensions": [
+        47,
+        47
+      ],
+      "image": "common/7115450028379007999.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7115450028379007999"
+    },
+    {
+      "name": "IconSuitOff",
+      "dimensions": [
+        32,
+        29
+      ],
+      "image": "common/7186584110129340438.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7186584110129340438"
+    },
+    {
+      "name": "ComBtnInnerOutline@3x",
+      "dimensions": [
+        50,
+        50
+      ],
+      "image": "common/7189236855767480879.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7189236855767480879"
+    },
+    {
+      "name": "CommonEmpty_M",
+      "dimensions": [
+        175,
+        125
+      ],
+      "image": "common/7192049596329540209.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7192049596329540209"
+    },
+    {
+      "name": "IconRevert@3x",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/7197019926843084832.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7197019926843084832"
+    },
+    {
+      "name": "ItemMinusBtn",
+      "dimensions": [
+        46,
+        49
+      ],
+      "image": "common/7240055737900574141.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7240055737900574141"
+    },
+    {
+      "name": "IconReward",
+      "dimensions": [
+        32,
+        36
+      ],
+      "image": "common/7332328035611878227.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7332328035611878227"
+    },
+    {
+      "name": "Outline128R@3x",
+      "dimensions": [
+        258,
+        258
+      ],
+      "image": "common/7378767899739284149.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7378767899739284149"
+    },
+    {
+      "name": "IconPin",
+      "dimensions": [
+        50,
+        50
+      ],
+      "image": "common/7475740086039367092.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7475740086039367092"
+    },
+    {
+      "name": "LevelRewardIconLv",
+      "dimensions": [
+        64,
+        72
+      ],
+      "image": "common/7486947122055669833.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7486947122055669833"
+    },
+    {
+      "name": "AchievementHintDes",
+      "dimensions": [
+        96,
+        98
+      ],
+      "image": "common/7496017774119195372.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7496017774119195372"
+    },
+    {
+      "name": "MpDotImg",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/7548683327174233981.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7548683327174233981"
+    },
+    {
+      "name": "TeamMemberIcon",
+      "dimensions": [
+        18,
+        19
+      ],
+      "image": "common/7563905781558812250.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7563905781558812250"
+    },
+    {
+      "name": "IconSandGlass40",
+      "dimensions": [
+        31,
+        40
+      ],
+      "image": "common/7567788048311701955.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7567788048311701955"
+    },
+    {
+      "name": "Deco_SelectionHint",
+      "dimensions": [
+        58,
+        74
+      ],
+      "image": "common/7569933978493435621.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7569933978493435621"
+    },
+    {
+      "name": "IconGuideEntry",
+      "dimensions": [
+        40,
+        30
+      ],
+      "image": "common/7582197342120953542.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7582197342120953542"
+    },
+    {
+      "name": "IconGood",
+      "dimensions": [
+        60,
+        60
+      ],
+      "image": "common/7655196658189079974.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7655196658189079974"
+    },
+    {
+      "name": "CommonDeletLine2",
+      "dimensions": [
+        60,
+        44
+      ],
+      "image": "common/7664931339519918966.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7664931339519918966"
+    },
+    {
+      "name": "LabelHalf",
+      "dimensions": [
+        41,
+        49
+      ],
+      "image": "common/7732606541169737849.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7732606541169737849"
+    },
+    {
+      "name": "Outline6px14RFHD",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/7734594544173214215.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7734594544173214215"
+    },
+    {
+      "name": "IconTimerOutline@3x",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/7781992602880392319.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7781992602880392319"
+    },
+    {
+      "name": "IconChangePaths",
+      "dimensions": [
+        46,
+        44
+      ],
+      "image": "common/7809994872607941022.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7809994872607941022"
+    },
+    {
+      "name": "RogueStarStateOn",
+      "dimensions": [
+        27,
+        27
+      ],
+      "image": "common/7831285774877150381.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7831285774877150381"
+    },
+    {
+      "name": "NetStatusLevel2",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/7982642525292421693.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "7982642525292421693"
+    },
+    {
+      "name": "FrameTabLeft",
+      "dimensions": [
+        114,
+        93
+      ],
+      "image": "common/8019424955684441813.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8019424955684441813"
+    },
+    {
+      "name": "IconAssemblyBig",
+      "dimensions": [
+        88,
+        88
+      ],
+      "image": "common/8033440680818661463.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8033440680818661463"
+    },
+    {
+      "name": "CircleOutline",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/8048539917002988924.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8048539917002988924"
+    },
+    {
+      "name": "IconBack",
+      "dimensions": [
+        44,
+        44
+      ],
+      "image": "common/8065602532768848111.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8065602532768848111"
+    },
+    {
+      "name": "IconRogueEnterMonster",
+      "dimensions": [
+        53,
+        42
+      ],
+      "image": "common/8164771861146391090.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8164771861146391090"
+    },
+    {
+      "name": "IconLikeOutline",
+      "dimensions": [
+        36,
+        32
+      ],
+      "image": "common/8225323431517487349.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8225323431517487349"
+    },
+    {
+      "name": "IconLocation",
+      "dimensions": [
+        38,
+        36
+      ],
+      "image": "common/8247658375489485821.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8247658375489485821"
+    },
+    {
+      "name": "IconTrace@3x",
+      "dimensions": [
+        32,
+        32
+      ],
+      "image": "common/8282102120860179680.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8282102120860179680"
+    },
+    {
+      "name": "CommonTabInnerOutline3",
+      "dimensions": [
+        25,
+        25
+      ],
+      "image": "common/8320097858898292215.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8320097858898292215"
+    },
+    {
+      "name": "OutlineGlow7px@3x",
+      "dimensions": [
+        80,
+        80
+      ],
+      "image": "common/8324457836746158003.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8324457836746158003"
+    },
+    {
+      "name": "IconRelicGoodRank2",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/8336023016726716551.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8336023016726716551"
+    },
+    {
+      "name": "MainTipsIcon",
+      "dimensions": [
+        18,
+        18
+      ],
+      "image": "common/8425368066598357283.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8425368066598357283"
+    },
+    {
+      "name": "ScreenBottomRound",
+      "dimensions": [
+        20,
+        20
+      ],
+      "image": "common/8474764611790272180.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8474764611790272180"
+    },
+    {
+      "name": "ComCircleFrame18RFHD",
+      "dimensions": [
+        42,
+        42
+      ],
+      "image": "common/8507958173286042183.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8507958173286042183"
+    },
+    {
+      "name": "IconArrowExit",
+      "dimensions": [
+        72,
+        58
+      ],
+      "image": "common/8518677516176550240.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8518677516176550240"
+    },
+    {
+      "name": "Share",
+      "dimensions": [
+        64,
+        64
+      ],
+      "image": "common/8524009000612626930.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8524009000612626930"
+    },
+    {
+      "name": "IconBackLogArrow",
+      "dimensions": [
+        30,
+        26
+      ],
+      "image": "common/8530407957646616180.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8530407957646616180"
+    },
+    {
+      "name": "TabInnerOutlineHalf",
+      "dimensions": [
+        25,
+        38
+      ],
+      "image": "common/8547050315561779623.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8547050315561779623"
+    },
+    {
+      "name": "FrameProgressTalkInfo",
+      "dimensions": [
+        61,
+        70
+      ],
+      "image": "common/8637930583811583623.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8637930583811583623"
+    },
+    {
+      "name": "IconConfirm",
+      "dimensions": [
+        26,
+        26
+      ],
+      "image": "common/8659128912619778471.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8659128912619778471"
+    },
+    {
+      "name": "OutlineCircleLongPress",
+      "dimensions": [
+        172,
+        172
+      ],
+      "image": "common/8700782056243906928.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8700782056243906928"
+    },
+    {
+      "name": "CommonDotPanelSpacing",
+      "dimensions": [
+        36,
+        30
+      ],
+      "image": "common/8702275014079238872.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8702275014079238872"
+    },
+    {
+      "name": "IconReceive",
+      "dimensions": [
+        64,
+        52
+      ],
+      "image": "common/8703170112519640264.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8703170112519640264"
+    },
+    {
+      "name": "IconRogueStarRelic",
+      "dimensions": [
+        50,
+        51
+      ],
+      "image": "common/8711095220868560192.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8711095220868560192"
+    },
+    {
+      "name": "ProgressPoint",
+      "dimensions": [
+        19,
+        19
+      ],
+      "image": "common/8794555752037657526.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8794555752037657526"
+    },
+    {
+      "name": "IconRogueEnterGacha",
+      "dimensions": [
+        50,
+        50
+      ],
+      "image": "common/8821557899546434105.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8821557899546434105"
+    },
+    {
+      "name": "OutlineSquare",
+      "dimensions": [
+        30,
+        30
+      ],
+      "image": "common/8882428326570230714.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8882428326570230714"
+    },
+    {
+      "name": "FailureIcon",
+      "dimensions": [
+        59,
+        60
+      ],
+      "image": "common/8894031828202656688.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8894031828202656688"
+    },
+    {
+      "name": "MissionBtn",
+      "dimensions": [
+        60,
+        80
+      ],
+      "image": "common/8902861839293065036.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "8902861839293065036"
+    },
+    {
+      "name": "InfoDetail",
+      "dimensions": [
+        32,
+        24
+      ],
+      "image": "common/9034492632010602607.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "9034492632010602607"
+    },
+    {
+      "name": "IconDetailClose",
+      "dimensions": [
+        24,
+        24
+      ],
+      "image": "common/9042957512563428320.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "9042957512563428320"
+    },
+    {
+      "name": "MarqueeImg",
+      "dimensions": [
+        47,
+        33
+      ],
+      "image": "common/9046347309529278487.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "9046347309529278487"
+    },
+    {
+      "name": "Outline2px18RFHD",
+      "dimensions": [
+        42,
+        42
+      ],
+      "image": "common/9066669104672005562.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "9066669104672005562"
+    },
+    {
+      "name": "FrameMiniMapEntryType1",
+      "dimensions": [
+        80,
+        84
+      ],
+      "image": "common/9079403705187901020.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "9079403705187901020"
+    },
+    {
+      "name": "IconRogueEnteBless",
+      "dimensions": [
+        57,
+        53
+      ],
+      "image": "common/9093964032381948410.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "9093964032381948410"
+    },
+    {
+      "name": "PhoneMessageNewIcon",
+      "dimensions": [
+        72,
+        72
+      ],
+      "image": "common/9140376038453916282.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "9140376038453916282"
+    },
+    {
+      "name": "OutlineGlowCorner26R@6x_01",
+      "dimensions": [
+        78,
+        74
+      ],
+      "image": "common/9154728631043210934.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "9154728631043210934"
+    },
+    {
+      "name": "FrameMailOwner",
+      "dimensions": [
+        20,
+        16
+      ],
+      "image": "common/9162331740468462253.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "9162331740468462253"
+    },
+    {
+      "name": "OutlineCorner24R@3x",
+      "dimensions": [
+        36,
+        36
+      ],
+      "image": "common/9190376704436684647.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "9190376704436684647"
+    },
+    {
+      "name": "IconRelicGoodRank1",
+      "dimensions": [
+        48,
+        48
+      ],
+      "image": "common/9196568497684097652.webp",
+      "source": "locally_supplied_game_asset",
+      "path_id": "9196568497684097652"
+    }
+  ]
+}

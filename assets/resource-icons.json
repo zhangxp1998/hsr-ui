@@ -1,0 +1,26 @@
+[
+  {
+    "name": "combo_widget_hkrpg_icon_backup_stamina",
+    "size": [
+      132,
+      132
+    ],
+    "member": "res/drawable-xxhdpi-v4/combo_widget_hkrpg_icon_backup_stamina.png",
+    "source_kind": "original_android_drawable",
+    "format": "Android drawable; not Unity Sprite",
+    "image": "combo_widget_hkrpg_icon_backup_stamina.webp",
+    "source": "locally_supplied_game_asset"
+  },
+  {
+    "name": "combo_widget_hkrpg_icon_stamina",
+    "size": [
+      132,
+      132
+    ],
+    "member": "res/drawable-xxhdpi-v4/combo_widget_hkrpg_icon_stamina.png",
+    "source_kind": "original_android_drawable",
+    "format": "Android drawable; not Unity Sprite",
+    "image": "combo_widget_hkrpg_icon_stamina.webp",
+    "source": "locally_supplied_game_asset"
+  }
+]

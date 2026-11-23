@@ -1,0 +1,10 @@
+#!/bin/sh
+skill_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ -n "${HSR_UI_PYTHON:-}" ]; then
+    python_bin=$HSR_UI_PYTHON
+elif [ -x "$skill_dir/.venv/bin/python" ]; then
+    python_bin=$skill_dir/.venv/bin/python
+else
+    python_bin=python3
+fi
+exec "$python_bin" "$skill_dir/service.py" "$@"

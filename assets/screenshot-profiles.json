@@ -1,0 +1,12 @@
+[
+  {
+    "name": "ObservedSpaceAnchorHeader",
+    "image": "space-anchor-header.jpg",
+    "source": "screenshot_template"
+  },
+  {
+    "name": "ObservedNamelessHonorHUD",
+    "image": "nameless-honor-hud.jpg",
+    "source": "screenshot_template"
+  }
+]

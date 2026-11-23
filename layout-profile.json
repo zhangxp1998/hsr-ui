@@ -1,0 +1,49 @@
+{
+  "profile": "guide-4.7.0-122-2200x1440",
+  "reference_dimensions": [
+    2200,
+    1440
+  ],
+  "main_centers": {
+    "training": [
+      324.0,
+      297.0
+    ],
+    "survival": [
+      478.0,
+      297.0
+    ],
+    "cosmic": [
+      633.0,
+      298.0
+    ],
+    "challenge": [
+      789.0,
+      297.0
+    ],
+    "story": [
+      944.0,
+      297.0
+    ]
+  },
+  "close_center": [
+    2118.0,
+    84.0
+  ],
+  "subtabs_roi_reference": [
+    212,
+    384,
+    734,
+    1184
+  ],
+  "title_left_reference_range": [
+    232,
+    278
+  ],
+  "title_height_reference_range": [
+    43,
+    64
+  ],
+  "geometry_kind": "Calibrated visual layout prior transported by independently matched original sprite centers; NOT prefab/engine/touch bounds.",
+  "page_gate": "At least four original distinct main glyphs in verified order, consistent similarity transform, original close icon, one selected inversion. No OCR title."
+}

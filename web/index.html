@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>星铁 · 语义控制台</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header>
+  <div class="brand"><span class="brand-icon" aria-hidden="true">✦</span><div><h1>星铁 <span>语义控制台</span></h1><p>HSR · LIVE SEMANTIC VIEW</p></div></div>
+  <div class="toolbar"><span id="connection" class="status"><i></i><span>未连接</span></span><button id="connect" class="primary">连接平板</button><button id="lock" disabled>锁屏</button></div>
+</header>
+<main>
+<section class="viewer">
+  <div class="section-head"><div><span class="eyebrow">DEVICE MIRROR / 语义布局</span><h2 id="page-name">等待连接</h2></div><div class="view-meta"><span id="dimensions">— × —</span><span id="latency">— ms</span></div></div>
+  <div id="stage-wrap"><div id="stage" aria-label="平板语义 UI" role="group">
+    <div id="nodes"></div><div id="empty"><div class="empty-icon">✧</div><h3>让界面，变成可操作的结构</h3><p>连接后，实时显示识别到的文字与控件位置。<br>点击蓝色框，会同步操作平板。</p><span>60 秒无操作 · 自动锁屏</span></div>
+  </div></div>
+  <div class="viewer-footer"><div class="legend"><span><i class="action"></i>可点击</span><span><i class="read"></i>识别文字 / 状态</span><span><i class="selected"></i>已选中</span></div><span id="frame-meta">等待实时观测</span></div>
+  <div class="notice" id="notice" role="status">点击连接，开始实时观察</div>
+</section>
+<aside>
+  <section class="idle-card"><div><span class="eyebrow">AUTO LOCK</span><h2>空闲保护</h2></div><div class="countdown"><strong id="seconds">—</strong><span>秒后锁屏</span></div><div class="track"><div id="idle-bar"></div></div><p>网页中的鼠标、键盘和点击操作延长计时。自动刷新不计入；关掉网页后仍会锁屏。</p></section>
+  <section class="panel"><div class="panel-title"><h2>页面状态</h2><span id="node-count" class="badge">0 节点</span></div><div id="state-summary" class="state-summary">尚无结构化数据</div><details><summary>查看完整状态</summary><pre id="state-json">{}</pre></details></section>
+  <section class="panel tree-panel"><div class="panel-title"><h2>语义节点</h2><span class="muted">按原始位置映射</span></div><div id="tree"><p class="placeholder">连接后显示节点列表</p></div></section>
+</aside>
+</main>
+<footer><span>视觉推断 UI · 非游戏原生无障碍树</span><span>仅本机连接 · 不展示原始截图</span></footer>
+</body></html>

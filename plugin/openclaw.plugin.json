@@ -1,0 +1,19 @@
+{
+  "id": "hsr-ui",
+  "name": "Star Rail Visual UI",
+  "description": "Sprite-first local Star Rail semantic observation and clicks.",
+  "version": "0.1.1",
+  "configSchema": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": [
+      "hsr_ui"
+    ]
+  }
+}
