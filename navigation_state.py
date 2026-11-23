@@ -113,13 +113,21 @@ def read_field(v,im):
         slots.append(item)
         nodes.append(v.node('party/slot/'+str(i),(name or '角色 '+str(i))+' HP','status',bounds,'pixel_geometry',False,
                             hp_fill_fraction_visual=item['hp_fill_fraction_visual'],visually_full=full))
-    uid_lines=v.recognize_line(im,[45,1375,340,1435],'field.uid')
-    uid=None
-    for q in uid_lines:
-        match=re.fullmatch(r'UID[:：·.]?(\d{9})',clean(q['name']))
-        if match:uid=match.group(1)
     return dict(party=dict(visible_slots=len(slots),slots=slots,
-                          all_four_visually_full=all(q['visually_full'] for q in slots) if len(slots)==4 else None),uid=uid),nodes
+                          all_four_visually_full=all(q['visually_full'] for q in slots) if len(slots)==4 else None),uid=read_uid(v,im)),nodes
+
+
+def read_uid(v,im):
+    """Read the visible account label; never infer identity from a prior frame.
+
+    The same label remains visible under the monthly-supply overlay. Keeping
+    this read separate lets a caller verify identity before claiming that overlay.
+    Only already-recognized field/supply pages call this bounded reader.
+    """
+    lines=v.recognize_line(im,[45,1375,340,1435],'account.uid')
+    if len(lines)!=1 or lines[0].get('score',0)<.95:return None
+    match=re.fullmatch(r'UID[:：·.]?(\d{9})',clean(lines[0]['name']))
+    return match.group(1) if match else None
 
 
 def read_team(v,im,close):

@@ -4,7 +4,7 @@
 Unity Sprite from the game installation.** No game images, APKs, resource blocks,
 replay fixtures or model weights are distributed in this repository.
 
-The versioned `assets/sprite-recipe.json` selects the complete **26-template set
+The versioned `assets/sprite-recipe.json` selects the complete **28-template set
 used by this recognizer**, not every Sprite in the installed game. The current
 resource index contains 733,565 bundle rows; it is not a full decoded catalog.
 The recipe binds the game version, index/APK hashes, bundle payload, CAB,
@@ -58,7 +58,10 @@ recipe, original-only provenance, file/pixel hashes and path containment. Missin
 changed, screenshot or Android-drawable sources are rejected. There is no legacy
 screenshot-manifest fallback. Failed recognition stays unknown, not a new crop.
 
-All 26 templates are original Sprites. In particular:
+All 28 templates are original Sprites. In particular:
+
+- Battle HUD uses original `IconAuto` and `IconBattlePause` from the native Battle_UI atlas;
+  gold ON state has replay coverage. White/gray/OFF/disabled states remain unknown.
 
 | Recognition purpose | Game Sprite | Rendering |
 | --- | --- | --- |

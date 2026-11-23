@@ -1,5 +1,46 @@
 # Validation
 
+## Semantic-only daily policy and entry/battle readers, 2026-11-23
+
+- The daily integration policy now prohibits agent image reads, separate OCR,
+  mapped coordinates and other GUI fallbacks. Missing evidence gets bounded
+  re-observation, then a reported stop. Internal JPEG/OCR/fresh-pixel checks stay.
+- **28/28 original templates** rebuilt with the current device index/APK verified:
+  the two additional native Battle_UI Sprites are `IconAuto` and `IconBattlePause`.
+  No screenshot-crop templates were added. Exact RGBA/provenance checks passed.
+- **57 public tests passed**: 35 semantic/source/parser contracts, 17 Web tests
+  and 5 plugin tests. Login includes pre-input server-change rejection; current
+  field/supply UID changes or disappearance also refuse before input.
+- **Eight private regression groups passed** against the publishable CPU code:
+  base 72/72, audit gaps 11/11, top bar 17/17, power/planning 16/16,
+  daily state 43/43, catch-up 15/15, supply 13/13 and compact output 13/13.
+  An obsolete assertion expecting a screenshot-derived map anchor was corrected
+  to require original-Sprite provenance; production thresholds were not relaxed.
+- Focused saved-frame checks: login **18/18**, battle HUD **97/97**, integrated
+  full-recognizer routing/compact output **18/18**, visible account identity
+  **9/9** (field and pre/post-claim monthly overlays, scaling and masked-UID
+  negatives). The monthly overlay exposes its current UID for verification
+  before the initial claim; no prior account identity is substituted. Battle checks include four
+  positive ON frames, 82 non-battle/cinematic negatives, eight synthetic negatives
+  and three unchanged appearance-guard refusals. These scopes overlap and are
+  calibrated examples, not a global accuracy estimate.
+- The reloaded installed native tool verified saved login/battle/field frames,
+  including observed server, unknown UID before entry, positively ON auto state,
+  all ten field entries and rejection of replay input. The actual exported
+  plugin → exported launcher → Python path separately verified login, battle,
+  field, map, monthly UID, compact/full output and replay rejection. The native
+  tool was separately reloaded and checked for the monthly UID addition.
+
+**Remaining acceptance:** no new complete unattended daily was run. Zero fallback
+and completing every daily step are distinct requirements. Auto ON is supported;
+OFF/white/gray/disabled remains unknown with no inferred toggle, so an unverified
+OFF state cannot yet be enabled. Control-free animations may also remain unknown.
+The next natural scheduled occurrence still needs whole-run leaf-call auditing.
+
+This change used read-only device resources and saved/private JPEGs; the tablet
+remained locked. There was no new live capture, game input, reward claim, challenge
+or resource spending. Device/account fixtures and assets remain outside GitHub.
+
 ## Original-Sprite-only migration, 2026-11-23
 
 - **26/26 current templates** rebuilt from device resources (25 bundles), with

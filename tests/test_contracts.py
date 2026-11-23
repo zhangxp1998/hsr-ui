@@ -91,6 +91,28 @@ class Contracts(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'expired'):svc.validate_reference(req,'owner')
         self.assertEqual(calls,[])
 
+    def test_login_server_cannot_change_between_observation_and_input(self):
+        svc,calls=self.make_service()
+        old=svc.records['test-observation']['result']
+        old['page']='login.title';old['state']={'login':{'server':'Asia'}}
+        fresh=copy.deepcopy(old);fresh['state']['login']['server']='Europe'
+        svc.observe=lambda *a,**k:fresh
+        with self.assertRaisesRegex(ValueError,'login_server_changed'):
+            svc.click(dict(action='click',observationId='test-observation',ref='test-ref'),'owner')
+        self.assertEqual(calls,[])
+
+    def test_current_uid_cannot_change_or_disappear_before_input(self):
+        for page in ('field','supply.monthly'):
+            for uid in ('999999999',None):
+                with self.subTest(page=page,uid=uid):
+                    svc,calls=self.make_service();old=svc.records['test-observation']['result']
+                    old['page']=page;old['state']={'uid':'888888888'}
+                    fresh=copy.deepcopy(old);fresh['state']['uid']=uid
+                    svc.observe=lambda *a,**k:fresh
+                    with self.assertRaisesRegex(ValueError,'account_uid_changed'):
+                        svc.click(dict(action='click',observationId='test-observation',ref='test-ref'),'owner')
+                    self.assertEqual(calls,[])
+
     def test_cancel_dry_run_and_one_input_consumption(self):
         req=dict(action='click',observationId='test-observation',ref='test-ref')
         canvas=np.zeros((1440,2200,3),dtype=np.uint8)

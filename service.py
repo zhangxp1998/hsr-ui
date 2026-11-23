@@ -121,6 +121,10 @@ class Service:
         fresh=self.observe(dict(action='observe'),owner,internal=True)
         old=record['result']
         if fresh['page']!=old['page'] or fresh['page']=='unknown':raise ValueError('page_changed_reobserve')
+        if old['page']=='login.title' and old.get('state',{}).get('login',{}).get('server') != fresh.get('state',{}).get('login',{}).get('server'):
+            raise ValueError('login_server_changed_reobserve')
+        if old.get('state',{}).get('uid') is not None and old['state']['uid'] != fresh.get('state',{}).get('uid'):
+            raise ValueError('account_uid_changed_reobserve')
         if self.selection(fresh['tree'])!=self.selection(old['tree']):raise ValueError('selected_tabs_changed_reobserve')
         candidates=[n for n in self.walk(fresh['tree']) if n.get('key')==node['key'] and n.get('actions')]
         if len(candidates)!=1:raise ValueError('node_missing_or_ambiguous_reobserve')

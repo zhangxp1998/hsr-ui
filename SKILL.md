@@ -31,8 +31,10 @@ Material names/counts come from the observed tooltip, not a dungeon lookup table
 Clipped row names require scrolling before selection. See [workflow](docs/workflow.md).
 
 Inspect settling results before the next action. Unknown animation frames do not
-prove success or failure. If necessary, inspect a fresh JPEG; only JPEG screenshots
-may persist. Do not repeat an input whose delivery is uncertain.
+prove success or failure. Daily runs are semantic-only: bounded wait/re-observation
+then stop/report persistent gaps, with no agent image reading, external OCR or
+coordinate fallback. Internal service JPEG/OCR/pre-click checks remain allowed.
+Do not repeat an input whose delivery is uncertain.
 
 Live tasks must preserve any already-running game, save/restore brightness, and
 lock/verify the device after releasing their stream. Do not take over another

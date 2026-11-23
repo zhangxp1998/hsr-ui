@@ -11,6 +11,8 @@ from daily_state import enrich
 from navigation_state import read_map, read_field, read_team
 from result_state import read_reward_popup, read_challenge_result
 from supply_state import read_supply
+from login_state import read_login
+from battle_state import read_battle
 from weekly_state import read_unlock_prompt, guide_weekly_nodes, read_material_popup
 
 
@@ -359,6 +361,18 @@ class Vision:
             if overlay:
                 page=overlay['page'];label=overlay['label'];gate=overlay['evidence']
                 state=overlay['state'];children=overlay['nodes'];hasclose=False
+                route_ms=(time.perf_counter()-start)*1000
+        if page=='unknown' and not hasclose:
+            battle=read_battle(self,im)
+            if battle:
+                page=battle['page'];label=battle['label'];gate=battle['evidence']
+                state=battle['state'];children=battle['nodes']
+                route_ms=(time.perf_counter()-start)*1000
+        if page=='unknown' and not hasclose:
+            login=read_login(self,im)
+            if login:
+                page=login['page'];label=login['label'];gate=login['evidence']
+                state=login['state'];children=login['nodes']
                 route_ms=(time.perf_counter()-start)*1000
         if page!='unknown' and hasclose:
             state=enrich(self,im,page,children,close,detail,state)

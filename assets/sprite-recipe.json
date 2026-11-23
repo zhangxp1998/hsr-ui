@@ -140,6 +140,13 @@
       "kind": "sram",
       "index": 13599,
       "sha256": "0c8a70c578dcb47e00bf57e81093783b03e4d173afcae2d44481fbc5eb97b0f4"
+    },
+    "apk-5cc0e5c6b2bd2510bff0f0fecd675099-1637706": {
+      "kind": "apk",
+      "apk": "assets",
+      "member": "assets/Asb/Android/5cc0e5c6b2bd2510bff0f0fecd675099.block",
+      "offset": 1637706,
+      "sha256": "63a3d4799645cdbc8e9735db8e70d41f95328aa74540aab8a46d26666251e322"
     }
   },
   "sprites": [
@@ -376,6 +383,24 @@
       "path_id": "2888466597093741572",
       "rgba_sha256": "aca3a8d5ca4b9856028f23749eeb9d937590b004d030c88da060393e25373d42",
       "render_mode": "logical_canvas"
+    },
+    {
+      "name": "IconBattlePause",
+      "sprite_name": "IconBattlePause",
+      "cab": "CAB-ef851d12411247bc1650436650b15182",
+      "path_id": "-8487354446257919807",
+      "bundle": "apk-5cc0e5c6b2bd2510bff0f0fecd675099-1637706",
+      "render_mode": "trimmed",
+      "rgba_sha256": "5d2b35570ed4ec1d3d875eb7ca720b2c4b016bd70718cd010783408d7f7e8689"
+    },
+    {
+      "name": "IconAuto",
+      "sprite_name": "IconAuto",
+      "cab": "CAB-ef851d12411247bc1650436650b15182",
+      "path_id": "7995219362888206847",
+      "bundle": "apk-5cc0e5c6b2bd2510bff0f0fecd675099-1637706",
+      "render_mode": "trimmed",
+      "rgba_sha256": "7b666d4957dd455da282f3f2f590c84d48b03b22ccf14a093bbe1a2256f74d26"
     }
   ]
 }

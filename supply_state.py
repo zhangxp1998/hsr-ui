@@ -1,5 +1,6 @@
 """Monthly supply overlay: two exact, independent OCR labels gate a claim node."""
 import re
+from navigation_state import read_uid
 
 
 def read_supply(v, im):
@@ -27,6 +28,6 @@ def read_supply(v, im):
     nodes.append(v.node('supply/dismiss' if confirmed else 'supply/claim',
                         '关闭已领取的补给' if confirmed else matched_prompt['name'],bounds=matched_prompt['bounds'],
                         source='roi_ocr', effect='navigation' if confirmed else 'claim', ocr_score=matched_prompt['score']))
-    return dict(state={'subscription': {'days_remaining': days, 'daily_claim_available': not confirmed,
+    return dict(state={'uid':read_uid(v,im),'subscription': {'days_remaining': days, 'daily_claim_available': not confirmed,
                                        'reward_confirmed':confirmed, 'stellar_jade_received':amount if confirmed else None}},
                 nodes=nodes, evidence=[dict(source='roi_ocr', title=matched_title, prompt=matched_prompt)])
