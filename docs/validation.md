@@ -1,10 +1,12 @@
 # Validation
 
-## Semantic-only daily policy and entry/battle readers, 2026-11-23
+## Semantic coverage goal and entry/battle readers, 2026-11-23
 
-- The daily integration policy now prohibits agent image reads, separate OCR,
-  mapped coordinates and other GUI fallbacks. Missing evidence gets bounded
-  re-observation, then a reported stop. Internal JPEG/OCR/fresh-pixel checks stay.
+- Policy clarification: zero fallback is a coverage goal, not a prohibition.
+  The initial prompt/tool-allowlist restriction was withdrawn; screenshots, image
+  inspection and verified mapped input remain available for coverage gaps. Follow
+  [the iteration loop](workflow.md): record gaps, implement, add regressions and
+  verify semantics. Internal JPEG/OCR/fresh-pixel guards stay unchanged.
 - **28/28 original templates** rebuilt with the current device index/APK verified:
   the two additional native Battle_UI Sprites are `IconAuto` and `IconBattlePause`.
   No screenshot-crop templates were added. Exact RGBA/provenance checks passed.
@@ -33,8 +35,9 @@
 
 **Remaining acceptance:** no new complete unattended daily was run. Zero fallback
 and completing every daily step are distinct requirements. Auto ON is supported;
-OFF/white/gray/disabled remains unknown with no inferred toggle, so an unverified
-OFF state cannot yet be enabled. Control-free animations may also remain unknown.
+OFF/white/gray/disabled remains unknown with no inferred semantic toggle. Fresh
+image inspection may verify a fallback action and supply regression evidence for
+that gap. Control-free animations may also remain unknown.
 The next natural scheduled occurrence still needs whole-run leaf-call auditing.
 
 This change used read-only device resources and saved/private JPEGs; the tablet

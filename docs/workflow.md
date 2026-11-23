@@ -1,94 +1,100 @@
-# Semantic-only daily navigation
+# Semantic-first daily navigation and iteration
 
-This is an integration policy, not a scheduler, device sandbox, or grant to spend
-resources. Configure account checks, checkpoints and resource budgets separately.
+The goal is a complete daily routine that no longer **needs** screenshot fallback
+because semantic coverage is sufficient. It is not a ban on agent screenshots,
+a restricted tool list, or permission to spend additional resources. Keep account,
+checkpoint, spending and device-lifecycle rules separately configured.
 
-## Execution boundary
+## Prefer semantics; keep diagnostic capability
 
-All game UI observations and actions use `hsr_ui` observe/click/scroll. The same
-JSON-service CLI is an allowed transport replacement for an unavailable native
-plugin; it does not permit screenshot or coordinate fallback. Keep one owner and
-use only that owner's latest live observationId/ref. Offline analyze is for
-recognizer development, never for live input authorization.
+Use `hsr_ui` observe/click/scroll first on covered pages. The same JSON-service CLI
+is an alternative transport if the native plugin is unavailable, not an image
+fallback. Keep one owner and use its latest live observationId/ref. Saved-image
+analyze is for development; replay refs can never authorize live input.
 
-The daily agent must not inspect current/reference images, invoke separate OCR,
-use mapped taps/raw swipes, or switch to another GUI tool when semantics fail.
-Remove unnecessary GUI/image tools from the scheduled task's allowlist. A shell
-needed for device lifecycle is not a security sandbox: the execution policy still
-forbids bypassing the semantic service through that shell. Audit actual calls,
-not just the configured allowlist.
+When a transition or missing state persists after bounded re-observation, the
+agent may inspect a fresh JPEG, use auxiliary OCR and perform verified current-
+frame mapped input to complete already-authorized work. Keep image/GUI tools
+available. Use the capture/mapping helpers with the selected device and current
+screenshot metadata; validate identity, freshness, orientation and geometry.
+Do not reuse historical coordinates, replay uncertain inputs or weaken semantic
+click guards. A rejected stale reference needs a fresh observation, not a blind
+manual replay. A reference image may help interpretation but is not live evidence.
 
-The service still captures JPEGs internally, performs local OCR/original-Sprite
-matching and validates fresh pixels before input. Internal video-to-ADB capture
-fallback is allowed and is not an agent image-reading fallback. Only JPEG capture
-files persist. Device identity, authorized unlock, foreground/lock checks,
-brightness save/restore, launch and owned-process cleanup remain separate device
-lifecycle operations; these must not turn into game-coordinate input.
+All persisted screenshots remain JPEG. Internal capture, OCR, original-Sprite
+matching and fresh-pixel validation continue unchanged. **Screenshot-crop templates
+remain prohibited**: private JPEGs may be observations and regression fixtures,
+not reusable recognition assets. New templates come from the game-resource recipe.
 
-## Ordered evidence
+## Iteration loop
 
-1. Verify the configured device and save brightness before authorized unlock.
-   Bring the game forward and observe it. `login.entry` exposes a corroborated
-   `点击进入`; `login.title` exposes `开始游戏` plus an observed server. Match a
-   visible server to the configured one before starting; neither page proves UID.
-   Verify the configured full `state.uid` on a live field or recognized
-   `supply.monthly` overlay before claims/spending. The initial monthly overlay
-   retains a visible UID: verify it before claiming, not after dismissing it.
-   A resumed field/overlay with that exact UID can bind the configured account without
-   forcing logout. Unknown/mismatched identity stops the affected run; prior-run
-   identity is not current evidence. UID changes/disappearance before input refuse.
-2. Select a unique contextual node and inspect its effect and state. Send one
-   guarded action, inspect settling and its returned observation. References do
-   not authorize claims, purchases or challenges. Do not replay uncertain input.
-3. For ordinary transitions, re-observe at most three times after approximately
-   2, 5 and 10 seconds. Loading/teleport may wait up to 180 seconds with 10-second
-   observations. Persistent missing state or validation failure stops that step;
-   record phase, page, observationId, missing evidence and actual completed work.
-4. After a confirmed challenge start, observe approximately every 20 seconds up
-   to a 20-minute batch deadline. A control-free cinematic may remain unknown.
-   Active-battle state and wave counters do not prove completion. Enable auto
-   only from positively verified OFF and an observed enable action; null is not
-   OFF. Already ON needs no click. The current battle profile verifies only ON;
-   white/gray/OFF/disabled visuals remain null with no toggle. It cannot yet enable
-   auto from an unverified OFF state. Never infer success/failure from an animation.
-5. For weekly materials, traverse semantic scroll nodes and fully visible dungeon
-   names. Open each first-material candidate, require `item.material`, read
-   `name/owned_count/stock_verified`, close and continue across all rows including
-   locked entries. Unknown stock is not zero. Early unlock has a distinct effect;
-   authorization to skip story does not permit unsupported coordinate clicks.
-6. Preparation state distinguishes ordinary/reserved power, selected count,
-   visible maximum, displayed cost, refill state and weekly rewards remaining.
-   The tool's planner uses ordinary power only. Apply the user's actual budget
-   and durable checkpoints; selected count is not completion count. Missing
-   balances/cost/refill/allowance stop spending. Zero weekly allowance means no
-   awarded weekly challenge. Never infer fuel/premium-currency authorization.
-7. `battle.result` requires success plus exit evidence. Verify the actual result
-   count, or the authorized weekly before/after allowance difference; unknown is
-   not a completed batch. Exit rather than blindly replaying a challenge. Retain
-   an unresolved checkpoint on interruption, failure or ambiguous input/result.
-8. Distinguish commission rewards from redispatch/change options, training cards
-   from already-claimed milestones, and Honor task XP from level rewards and
-   purchases. Observe after every claim because cards can reorder. A monthly
-   reward card is dismiss, not another claim. Follow only reachable semantic
-   routes to independent rewards after a blocked step.
-9. A blue map marker is only a candidate. Require `space_anchor` after selection
-   before healing teleport. Require four visible, full HP bars on a live field;
-   missing bars remain unknown. Complete current structured evidence needs no
-   duplicate image read.
-10. Release the owning stream, preserve any pre-existing game process, lock and
-    verify the device, and restore the saved brightness. Do not interrupt another
-    owner. Report completed, pre-existing/skipped and blocked steps separately.
+1. Record each gap: phase, page/observationId, missing node/state, private current
+   JPEG, fallback reason/action and verified outcome. Prefer existing complete
+   semantics; distinguish necessary fallback from redundant image reading.
+2. Add or repair the missing reader/node using original Sprites, layout and OCR.
+   Add positive and meaningful negative cases (occlusion, ambiguous or wrong
+   state), then run affected regressions. Do not fabricate enabled/count fields,
+   remove negative cases or lower guards to make tests pass.
+3. When feasible within the current run, finish that repair/test cycle, reload
+   only the owned worker and re-observe to verify the live semantic route. Otherwise
+   complete what is authorized and verifiable, retain an explicit repair item and
+   continue iteration afterward. A repeated fallback is not the final solution.
+4. After any mapped fallback, obtain a new semantic observation before using
+   refs again. Keep diagnostic/replay tests distinct from actual task actions.
+   Never rerun completed battles or spend extra power merely to prove coverage.
+
+## Current evidence and task boundaries
+
+- Confirm the configured device, save brightness and use the authorized unlock
+  procedure. Restore brightness, release the owned stream and verify locking
+  afterward; preserve a pre-existing game and do not interrupt another owner.
+- Prefer `login.entry`/`login.title` and their observed server. Verify the full
+  current `state.uid` on a live field or recognized `supply.monthly` before claims
+  or spending. The monthly overlay retains its visible UID. If the reader misses
+  identity, a fresh JPEG may supply evidence; prior-run identity never substitutes.
+  Wrong or still-unverifiable identity stops the affected work. Server/UID changes
+  before a semantic input reject its reference.
+- Select unique contextual nodes and inspect effects, selected/enabled/checked
+  state and authorization. One input, then inspect settling. For normal transitions,
+  re-observe up to three times (roughly 2/5/10 seconds); loading may take up to
+  180 seconds. Persistent coverage gaps may use the fallback/iteration loop.
+- During a confirmed battle, observe about every 20 seconds up to a 20-minute
+  batch deadline. `battle.active`, waves and animations are not completion.
+  Auto ON needs no click. The current profile verifies only ON; OFF/white/gray/
+  disabled remains null with no semantic toggle. A fresh JPEG may distinguish
+  an available OFF state for verified fallback and a new regression case; null
+  or absent gold alone never proves OFF.
+- Traverse weekly rows including locked entries; verify full names, material
+  stock and allowance using tooltips and semantic scrolls first. Unknown stock
+  is not zero. Missing coverage, including authorized early-unlock/story flows,
+  may use current-image fallback, not guessed or historical values.
+- Read current/reserved power, selected count, displayed cost, refill state and
+  weekly allowance from current evidence. The planner uses ordinary power only;
+  apply the actual authorized budget and checkpoints. Selected count is not
+  completed count, and zero weekly allowance is not a rewarded challenge.
+  Inspect missing fields if needed, then stop spending if evidence is still
+  uncertain. Fuel/premium currency/purchases need separate authorization.
+- Prefer `battle.result` success and exit evidence. Missing result fields may be
+  verified from a fresh image; weekly before/after allowance differences can
+  establish count. Never infer completion, blindly repeat a batch or reset an
+  unresolved checkpoint. Exit rather than replaying a challenge.
+- Preserve commission choices, distinguish training claims from claimed milestones,
+  and Honor task XP from level rewards/purchases. Re-observe card reordering.
+  A confirmed monthly reward card is dismiss, not a second claim.
+- Blue map markers are candidates, not proof of healing anchors. Verify the
+  selected anchor and four visible full HP bars using structured state first,
+  fresh-image evidence if missing. Do not duplicate complete semantic evidence.
 
 ## Acceptance
 
-Zero fallback and full daily completion are separate assertions. A safe stop can
-satisfy the first while failing the second. A complete scheduled occurrence must
-be audited using executed leaf calls, excluding mirrored wrappers and internal
-service captures. Require zero agent image reads, external OCR bypasses, mapped
-coordinate taps, raw game swipes and other GUI fallbacks. Count semantic scrolls
-separately. Missing history prevents whole-run certification. Do not spend extra
-resources or rerun a completed day merely to validate a policy change.
+Audit actual executed leaf calls, not just configured intentions. Count native/CLI
+semantic actions, necessary screenshot/mapped fallbacks, redundant image reads,
+diagnostics and repaired/outstanding gaps separately. Internal service capture/OCR
+and authorized device lifecycle are not agent fallback. Necessary fallback is
+permitted iteration evidence, not automatically a policy violation.
 
-Unknown dialogs and story variants remain unsupported. This policy forbids a
-fallback; it does not claim full-game recognition coverage or establish that a
-future unattended daily has already succeeded.
+A full occurrence that completes all required work without needing fallback is
+the coverage goal. Disabling image tools or stopping early cannot establish it.
+Report task completion, coverage and delivery separately; missing/truncated history
+makes whole-run coverage unverified. Retain unknown states in the tool and improve
+coverage through tests rather than pretending every page is already supported.

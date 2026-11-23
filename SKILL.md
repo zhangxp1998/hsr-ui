@@ -31,9 +31,12 @@ Material names/counts come from the observed tooltip, not a dungeon lookup table
 Clipped row names require scrolling before selection. See [workflow](docs/workflow.md).
 
 Inspect settling results before the next action. Unknown animation frames do not
-prove success or failure. Daily runs are semantic-only: bounded wait/re-observation
-then stop/report persistent gaps, with no agent image reading, external OCR or
-coordinate fallback. Internal service JPEG/OCR/pre-click checks remain allowed.
+prove success or failure. Prefer semantics, then bounded re-observation; keep
+agent screenshot/image/OCR tools and verified mapped input available for coverage
+gaps. Log the missing evidence, add implementation and positive/negative regression
+tests, and re-observe to verify the repaired semantic route. Zero fallback is the
+coverage goal, not a tool-permission ban. Stop only if essential evidence remains
+uncertain after inspection. Internal JPEG/OCR/pre-click guards remain unchanged.
 Do not repeat an input whose delivery is uncertain.
 
 Live tasks must preserve any already-running game, save/restore brightness, and
