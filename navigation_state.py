@@ -14,7 +14,7 @@ def read_map(v,im,close):
     # A marker is only a candidate until the selected point's own type confirms it.
     anchor_type=next((q for q in labels if clean(q['name']) in ['界域定锚','空间锚点']),None)
     teleport=next((q for q in actions if clean(q['name'])=='传送'),None)
-    anchor_icon=v.sprites.match('ObservedSpaceAnchorHeader',box([1485,190,1605,305]),(70,90),threshold=.92) if teleport else None
+    anchor_icon=v.sprites.match('IconMapMazePortal',box([1485,190,1605,305]),(70,90),threshold=.92) if teleport else None
     anchor_confirmed=bool(anchor_type or (anchor_icon and anchor_icon['accepted']))
     nodes=[];markers=[]
     if teleport:

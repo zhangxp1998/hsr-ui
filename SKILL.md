@@ -37,3 +37,10 @@ may persist. Do not repeat an input whose delivery is uncertain.
 Live tasks must preserve any already-running game, save/restore brightness, and
 lock/verify the device after releasing their stream. Do not take over another
 owner's brightness session. No PIN or credential is shipped with this skill.
+
+## Original-only template contract
+
+All current templates must be rebuilt from the game resource recipe; see
+`docs/assets.md`. Never create, accept or restore a screenshot-crop template.
+Missing original assets fail closed. Retain live screenshots for observation,
+OCR and observation-bound pre-click checks; those are not template sources.

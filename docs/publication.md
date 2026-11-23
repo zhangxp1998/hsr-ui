@@ -11,9 +11,9 @@ When syncing a future fix:
 2. Preserve the configurable device, asset and launcher paths in this export.
    Include the shared recognizer and ADB helpers: a source-only copy of the main
    skill without those modules is incomplete.
-3. Keep resource paths relative. Keep Sprite, Android drawable and screenshot
-   template provenance categories distinct; do not publish account screenshots
-   or the original source-machine paths in provenance JSON.
+3. Keep resource paths relative. Keep the original-Sprite-only recipe and fail-closed loader; never restore
+   screenshot-template or Android-drawable fallback. Do not publish game pixels,
+   resource caches, account screenshots or source-machine paths in provenance JSON.
 4. Retest changed code in an isolated environment. Private corpus tests may be
    used locally, but do not move their account-dependent expectations into the
    public tests. Record the tested exported source hashes locally before commit.

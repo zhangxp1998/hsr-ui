@@ -1,45 +1,88 @@
-# Local visual assets
+# Original-Sprite assets
 
-No game images, APKs, model weights, screenshot crops or replay fixtures are
-distributed. The recognizer cannot analyze pages until appropriate local assets
-exist. Nothing is fetched from a device by installation or `status`.
+**Zero screenshot-derived templates. Every current recognition template is a
+Unity Sprite from the game installation.** No game images, APKs, resource blocks,
+replay fixtures or model weights are distributed in this repository.
 
-The `assets/` JSON files document the original calibration's named templates.
-Supply images obtained from your own authorized installation at the indicated
-relative paths, preserving alpha, dimensions and crop identity. A filename alone
-does not establish that an image matches this calibration.
+The versioned `assets/sprite-recipe.json` selects the complete **26-template set
+used by this recognizer**, not every Sprite in the installed game. The current
+resource index contains 733,565 bundle rows; it is not a full decoded catalog.
+The recipe binds the game version, index/APK hashes, bundle payload, CAB,
+Sprite pathId, render mode and decoded RGBA hash. Names alone are insufficient.
 
-The root defaults to `assets/` next to the code; `HSR_UI_ASSET_DIR` can point to a
-private directory with the same layout, including copies of the manifests:
+## Rebuild from your own device
 
-```text
-assets/
-  resource-icons.json
-  screenshot-profiles.json
-  <images named by these two manifests>
-  hud/
-    candidate-provenance.json
-    common-discovery-index.json
-    <candidate images>
-    common/<common images>
-  guide/
-    asset-provenance.json
-    images/<guide images>
+Installation and `status` do not read a device or download resources. Run these
+explicit commands when preparing local assets:
+
+```sh
+.venv/bin/pip install -r requirements-assets.txt
+.venv/bin/python scripts/export_sprites.py prepare-codec --codec-dir private-data/codec
+.venv/bin/python scripts/export_sprites.py build \
+  --codec-dir private-data/codec \
+  --serial "$HSR_UI_SERIAL" \
+  --output private-data/assets \
+  --cache private-data/resource-cache
+export HSR_UI_ASSET_DIR="$PWD/private-data/assets"
 ```
 
-`image` is relative to the directory containing its manifest. Resource drawables
-are distinct from Unity Sprites. `screenshot-profiles.json` describes explicitly
-reviewed screenshot-derived templates, not original Sprites. Names and source
-categories are retained; source-machine paths, screenshot hashes and account
-data are omitted. `layout-profile.json` contains only measured layout geometry.
+`prepare-codec` downloads two data-only source tables from a pinned AnimeStudio
+revision and verifies their SHA-256. See [third-party notices](../THIRD_PARTY_NOTICES.md).
+The Linux adapter uses UnityPy, texture2ddecoder, pyooz and lz4 instead of
+reimplementing Unity/ASTC/Oodle. No downloaded C# or game code is executed.
 
-Guide matching requires the five named main-tab glyphs and `CommonCloseIcon@3x`.
-Additional covered pages require the names referenced in `vision.py` and the
-state readers. Large manifests include candidate assets that are not all used.
-Unknown or changed variants need separate calibration and negative controls;
-do not lower matching thresholds to make a missing asset pass.
+`build` requires an explicit device identity. It reads the installed version,
+resource index, precise resource ranges and the asset APK split. Device slices
+are read twice and must agree; every cached payload is hash-verified. The APK
+and index can require hundreds of MB on first use. It does **not** unlock the
+screen, capture it, launch or stop the game, send input, or change device settings.
+Use `--adb-port` only for a nondefault ADB server. `--package` and `--remote-root`
+are configurable. A version/hash mismatch fails rather than guessing new IDs.
 
-All image formats are ignored by Git, including locally supplied game templates.
-Generated screenshots must persist only as JPEG; PNG/raw capture buffers stay
-in memory. EXIF capture metadata can include a real device identity, so do not
-publish raw screenshots or output JSON without a separate privacy review.
+For an offline resource mirror use `--source-root /path/to/resources` instead of
+`--serial`. Supply the named index, block files and APK split in that directory;
+a previously verified export cache can also satisfy reads. Keep these files
+private. The output manifest is replaced only after every template succeeds.
+
+## Output and enforcement
+
+```text
+private-data/assets/
+  sprite-manifest.json
+  sprites/<decoded-RGBA-SHA256>.webp
+```
+
+WebP is lossless with exact transparent RGB preservation; every output is decoded
+again and must match the source RGBA bytes. `sprite_assets.py` checks the complete
+recipe, original-only provenance, file/pixel hashes and path containment. Missing,
+changed, screenshot or Android-drawable sources are rejected. There is no legacy
+screenshot-manifest fallback. Failed recognition stays unknown, not a new crop.
+
+All 26 templates are original Sprites. In particular:
+
+| Recognition purpose | Game Sprite | Rendering |
+| --- | --- | --- |
+| Nameless Honor HUD | `BPiPhone` | Unity Sprite extraction |
+| Selected space anchor | `IconMapMazePortal` | Unity Sprite extraction |
+| Trailblaze Power | item Sprite `11` | Original logical canvas |
+| Reserved Trailblaze Power | item Sprite `12` | Original logical canvas |
+
+The two power Sprites have a 128×128 logical rect exactly covering an independent
+same-CAB 128×128 Texture2D, without atlas, packing or rotation. The exporter checks
+those properties and preserves that original texture, including its transparent
+border. It does not add padding inferred from a screenshot. Other templates use
+UnityPy's Sprite/atlas/trim/rotation reconstruction. The shop matcher retains a
+stable subregion of its **original** Sprite to ignore a dynamic badge; this is not
+a screenshot-derived image.
+
+## What still uses screenshots
+
+Current screen observations, dynamic text/number OCR and before-click
+current-vs-fresh patch comparisons still use JPEG frames. These are observations
+and guards, not reusable template sources. PNG/raw capture buffers remain in
+memory or pipes. Static prefab/resource metadata is not proof of current screen
+visibility or live hitboxes.
+
+New game versions or UI variants require an updated recipe and positive/negative
+replay checks. Do not lower thresholds to accept a missing Sprite. Do not add
+screenshots, game images, full resource indexes or caches to Git.

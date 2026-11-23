@@ -103,9 +103,9 @@ def read_cavern_state(vision, im, close, cost_lines, page='cavern'):
     resources = {}
     nodes = []
     for key,name,asset,region,next_x,pattern in [
-        ('reserved_trailblaze_power','后备开拓力','combo_widget_hkrpg_icon_backup_stamina',
+        ('reserved_trailblaze_power','后备开拓力','ReservedTrailblazePower',
          [1450,15,1750,130],1740,r'(\d+)'),
-        ('trailblaze_power','开拓力','combo_widget_hkrpg_icon_stamina',
+        ('trailblaze_power','开拓力','TrailblazePower',
          [1710,15,2020,130],2025,r'(\d+)/(\d+)\+?')]:
         icon = vision.sprites.match(asset,box(region),(44,78),threshold=.80)
         candidates = []

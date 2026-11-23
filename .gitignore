@@ -28,3 +28,9 @@ private-data/
 *.sock
 *.key
 *.pem
+*.block
+*.encr
+*.bytes
+.cache/
+assets/sprite-manifest.json
+codec/

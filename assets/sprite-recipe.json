@@ -1,0 +1,381 @@
+{
+  "schema": "hsr-sprite-recipe-v1",
+  "game_version": "4.7.0",
+  "index": {
+    "file": "AsbV_4811a1888b09e675c059e3878f20d34a.bytes",
+    "sha256": "a53fbfdc50b7cf06685f3aaa63d6d6ba1e2a45606b1560a00a3d5b2f4b595e94"
+  },
+  "apks": {
+    "assets": {
+      "file": "split_AssetBundles.apk",
+      "sha256": "af9924072f1d5ad7301a98e40352b24834ad74d028b4e913dc20193fc1555b17"
+    }
+  },
+  "bundles": {
+    "sram-16129": {
+      "kind": "sram",
+      "index": 16129,
+      "sha256": "165b07acce002a3114e61a92859c69df6d55d71d42566c8dd5176c146f7e878e"
+    },
+    "sram-16132": {
+      "kind": "sram",
+      "index": 16132,
+      "sha256": "ea0a8faa6f07f4553aadee1ed1d5ef8063de4fcf00fde8e0e41c6056afdf13fb"
+    },
+    "sram-16134": {
+      "kind": "sram",
+      "index": 16134,
+      "sha256": "ee39be20acd80d282015fd831d1e5f9346cd01415f617c0ebbabce00315a4f12"
+    },
+    "apk-9ec2a182eab825fc5dfe7ea9c42f3826-937942": {
+      "kind": "apk",
+      "apk": "assets",
+      "member": "assets/Asb/Android/9ec2a182eab825fc5dfe7ea9c42f3826.block",
+      "offset": 937942,
+      "sha256": "78d143b43fff5ed353220dc1196ca2b04bda1abd7d883c5601d944a6f1a7fbd9"
+    },
+    "apk-2eea0f92de0167e1ccce9e9e83a06b9d-451398": {
+      "kind": "apk",
+      "apk": "assets",
+      "member": "assets/Asb/Android/2eea0f92de0167e1ccce9e9e83a06b9d.block",
+      "offset": 451398,
+      "sha256": "7d6ef3c0011301defba854417120f2dc1c3aea715b9f72b60cc66d1a7b7ef527"
+    },
+    "sram-16795": {
+      "kind": "sram",
+      "index": 16795,
+      "sha256": "72b651e947f64b0d58053bc4b48a743cb0d2534f5e6514191fdbd03e4de53c81"
+    },
+    "sram-16796": {
+      "kind": "sram",
+      "index": 16796,
+      "sha256": "474633782dbb2282d30b2aa3db06a7da39c868db2c346751568912fcc197a07d"
+    },
+    "sram-16140": {
+      "kind": "sram",
+      "index": 16140,
+      "sha256": "970f9fe5a4dda2835b5dad79c0f46715f3fa52946bc72b54042259b6fc069f60"
+    },
+    "sram-16797": {
+      "kind": "sram",
+      "index": 16797,
+      "sha256": "d56e497bfd4210a0bb91fcad8ba1cb1f56dac0ec361d00041d2a1b54437e5621"
+    },
+    "sram-16798": {
+      "kind": "sram",
+      "index": 16798,
+      "sha256": "e4f20c1456010a41fde32d74ec0af8445755cdd4f50445c9dfbd51600f5bed3d"
+    },
+    "sram-16799": {
+      "kind": "sram",
+      "index": 16799,
+      "sha256": "e2a1f308f64a0bacb85f22d708ba4b6e9367ea75d0c7c55a583fd931b1ff9841"
+    },
+    "sram-16142": {
+      "kind": "sram",
+      "index": 16142,
+      "sha256": "5460155072923b445d17a55df505e88cd016f8612819e2d330f3dd04bc1366b7"
+    },
+    "sram-16146": {
+      "kind": "sram",
+      "index": 16146,
+      "sha256": "aaabeb59a7c213fe464ca07c132e24b6c3ca502c33f8c3d13f909637405236b7"
+    },
+    "sram-16148": {
+      "kind": "sram",
+      "index": 16148,
+      "sha256": "70d3b1e37b1b283cd993bf17c30ad61af7b583d6ba06d96c0190791eda5523be"
+    },
+    "sram-16150": {
+      "kind": "sram",
+      "index": 16150,
+      "sha256": "efcbfa612b0fb6ee54e6b6910649bf774feb0c198191dfa3178fecd663174356"
+    },
+    "sram-16154": {
+      "kind": "sram",
+      "index": 16154,
+      "sha256": "2440448ec3a34004275f1bdee27ce88add1341fee9d83c4ea5ba324d5a9ef346"
+    },
+    "sram-16158": {
+      "kind": "sram",
+      "index": 16158,
+      "sha256": "a4fbfc574e332f5e76aaf109615209ff895c948b033109f7da75a5fd2b166a3f"
+    },
+    "sram-16160": {
+      "kind": "sram",
+      "index": 16160,
+      "sha256": "0812f6fe548cb8d3d2e8430e3b93888d40284a889ec5fa6afe1582e393be5e63"
+    },
+    "sram-16161": {
+      "kind": "sram",
+      "index": 16161,
+      "sha256": "bc5e513c5618f303ac5944401caa4d0446dfaaf48bc80b5fb4ac9dc220125fc6"
+    },
+    "sram-16163": {
+      "kind": "sram",
+      "index": 16163,
+      "sha256": "1996df080df25d900214a39eb1ef8091c7db9bb4ac338530a9408e17beecd9e3"
+    },
+    "sram-16164": {
+      "kind": "sram",
+      "index": 16164,
+      "sha256": "a6feac95cd88063ce68b3f4c5ac82cb84827f36f7166c0ed8bbb1953ede85987"
+    },
+    "sram-15513": {
+      "kind": "sram",
+      "index": 15513,
+      "sha256": "89ed05e54068db0946081c982d99cf604349308e69bb9b3547fc61944b599b57"
+    },
+    "sram-16787": {
+      "kind": "sram",
+      "index": 16787,
+      "sha256": "b5b3a252c0f61bc68f57b7b38a277d0c59be6fad0762c46acaf32c595edbc362"
+    },
+    "sram-13441": {
+      "kind": "sram",
+      "index": 13441,
+      "sha256": "58ebd89555eccb08fd4982d29c3f62e176df61bd1821e1945e19d16d2a53a525"
+    },
+    "sram-13599": {
+      "kind": "sram",
+      "index": 13599,
+      "sha256": "0c8a70c578dcb47e00bf57e81093783b03e4d173afcae2d44481fbc5eb97b0f4"
+    }
+  },
+  "sprites": [
+    {
+      "name": "AchievementIcon",
+      "sprite_name": "AchievementIcon",
+      "bundle": "sram-16129",
+      "cab": "CAB-e4161b293a152bfe356d3ff03abe6e32",
+      "path_id": "-1263580006218402985",
+      "rgba_sha256": "fb771935bf25fa54eb956a68bdd026c3e03cc3be6850fbb1101f216334c4ff2a",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "ActivityIcon",
+      "sprite_name": "ActivityIcon",
+      "bundle": "sram-16132",
+      "cab": "CAB-c63f985ff0b1e6889adb9efd736094fc",
+      "path_id": "-6491381930238317657",
+      "rgba_sha256": "21e44975982383430592dbf8e4121b6d7bdc032ad4f54da4a8bbc964e418d870",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "AssignmentIcon",
+      "sprite_name": "AssignmentIcon",
+      "bundle": "sram-16134",
+      "cab": "CAB-3607cfb677db2be7ed3d0ab69c9b10ed",
+      "path_id": "-8922110731835032931",
+      "rgba_sha256": "8e53e9a1ce2e6bfcc79e9a945bb2d2b9c1532709fd52111a49b24ab22f076bad",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "AvatarIcon",
+      "sprite_name": "AvatarIcon",
+      "bundle": "apk-9ec2a182eab825fc5dfe7ea9c42f3826-937942",
+      "cab": "CAB-6458c5ae762daa4b5a8132d0b7346b16",
+      "path_id": "-2646421922678667031",
+      "rgba_sha256": "d7150579f980b622bf208e63e9bfa1bd618850b2fb0940f0aed69b1c544e748f",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "CommonCloseIcon@3x",
+      "sprite_name": "CommonCloseIcon@3x",
+      "bundle": "apk-2eea0f92de0167e1ccce9e9e83a06b9d-451398",
+      "cab": "CAB-a8dcc7fea82a9ec6f21162744876b6cd",
+      "path_id": "-3334237698504257161",
+      "rgba_sha256": "dad14785c5fece05ed679ea55f1f7a4398f680d7edee3f8e02f05b48e64e28f8",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "DailyQuestChallengeStoryIcon",
+      "sprite_name": "DailyQuestChallengeStoryIcon",
+      "bundle": "sram-16795",
+      "cab": "CAB-697be1207922d1dcefbb1036dc5b5d67",
+      "path_id": "8165284823618386342",
+      "rgba_sha256": "37561371c6ab45c5c0415cd504aa2e02d610efa8dcc5e94d53a35f12be7dd8c9",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "DailyQuestExploreIcon",
+      "sprite_name": "DailyQuestExploreIcon",
+      "bundle": "sram-16796",
+      "cab": "CAB-154a68f7280129427439a741f2bc9580",
+      "path_id": "-211060795074528214",
+      "rgba_sha256": "7e186e2902906d3e7455a2ecc8b2ab19170a4bee2703c6020cd64e7822c0925f",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "DailyQuestIcon",
+      "sprite_name": "DailyQuestIcon",
+      "bundle": "sram-16140",
+      "cab": "CAB-16e27fa0830546e38011e1a599d5c1c8",
+      "path_id": "5169762074316194744",
+      "rgba_sha256": "0c2c6c2fd39c1ab49da255f718e3fe9257661225beffd001631da7f8a61e8e6b",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "DailyQuestMainStoryIcon",
+      "sprite_name": "DailyQuestMainStoryIcon",
+      "bundle": "sram-16797",
+      "cab": "CAB-8fdd3eb0483db6365dee8c6d191d4941",
+      "path_id": "-6091922207378145893",
+      "rgba_sha256": "184f8f5cf4c2bf3fabb5688c1ca083f85b86eac327a81764cc18bddfc1c35147",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "DailyQuestPracticeIcon",
+      "sprite_name": "DailyQuestPracticeIcon",
+      "bundle": "sram-16798",
+      "cab": "CAB-4c6646cd2942b3ad82783ccc74650762",
+      "path_id": "2013909744575028173",
+      "rgba_sha256": "fd26be49e123d2ee5955f949e9114fda25f161611caa496277b6bb5357c92bf9",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "DailyQuestRogueAndGridFightIcon",
+      "sprite_name": "DailyQuestRogueAndGridFightIcon",
+      "bundle": "sram-16799",
+      "cab": "CAB-70e15e8d19ca2e08e071c4c3c3819ca9",
+      "path_id": "3579002355273802381",
+      "rgba_sha256": "9fddc98a1445141235e1157575eb501359ac8120235c38b3ec6f230141681bde",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "DrawcardIcon",
+      "sprite_name": "DrawcardIcon",
+      "bundle": "sram-16142",
+      "cab": "CAB-4707d7afc3ffd48c5ce98af9cd148639",
+      "path_id": "-4998399718582224206",
+      "rgba_sha256": "c59fd186960c6b29b95add466268af8d472eb5a190969bd60a39f5b980427388",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "InventoryIcon",
+      "sprite_name": "InventoryIcon",
+      "bundle": "sram-16146",
+      "cab": "CAB-1fc74a7e70bc5243c7212366170ff64c",
+      "path_id": "8700607878702807581",
+      "rgba_sha256": "ed7c9118ea16c389b7a0c17366780a50a45a23addf143b9bbada8f1b5d1575c3",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "MapIcon",
+      "sprite_name": "MapIcon",
+      "bundle": "sram-16148",
+      "cab": "CAB-babbdd1a2641772c3caa5520c894c0d4",
+      "path_id": "-6356657498006822828",
+      "rgba_sha256": "c71c0da0ed1267852fe11c250ff67679b9f2e82b19f7497b2a82767bfb61327a",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "MessagesIcon",
+      "sprite_name": "MessagesIcon",
+      "bundle": "sram-16150",
+      "cab": "CAB-3da0340f9b966bf075e090e843a5bdd0",
+      "path_id": "-3722507588588628701",
+      "rgba_sha256": "c15bffab09905db9e90fe485319c21de18611440aa5878ce179a205c9754bf02",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "PhoneIcon",
+      "sprite_name": "PhoneIcon",
+      "bundle": "apk-2eea0f92de0167e1ccce9e9e83a06b9d-451398",
+      "cab": "CAB-a8dcc7fea82a9ec6f21162744876b6cd",
+      "path_id": "5264164015511737042",
+      "rgba_sha256": "dd6ea7c5d7abcc9ef7e9aa363fef15847b4877a10ef20b629ffd758ebb7d98e1",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "QuestIcon",
+      "sprite_name": "QuestIcon",
+      "bundle": "sram-16154",
+      "cab": "CAB-e8346f0c79be3f6237aa0b25dd3745ed",
+      "path_id": "-4423299129923312666",
+      "rgba_sha256": "e8bb44904ba18ea337a1f051b4b7b00fb58bba98920bbf98b77a654e63578d44",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "ShopActivityIcon",
+      "sprite_name": "ShopActivityIcon",
+      "bundle": "sram-16158",
+      "cab": "CAB-7cfd07211ad38f5f23223082934afef0",
+      "path_id": "110611830177747983",
+      "rgba_sha256": "634a427ce315e7ea34ee507e808da91aa4fb8502b82ba0e1da8fdaf511beaa10",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "SynthesisIcon",
+      "sprite_name": "SynthesisIcon",
+      "bundle": "sram-16160",
+      "cab": "CAB-8c6520beaf4d2f7f0f3cae79687711a1",
+      "path_id": "5111800122004342280",
+      "rgba_sha256": "061310aee57cf23a19d6c3c57033770ce217ec6e4cf0e9c894e62afa87552517",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "TeachIcon",
+      "sprite_name": "TeachIcon",
+      "bundle": "sram-16161",
+      "cab": "CAB-a8ac51826314da6ef28f2232d349f44a",
+      "path_id": "3562920881037199902",
+      "rgba_sha256": "f0a8597e0ffd58d4b1a6a8f4e4f3d85a9fcf9a85127d3865cba38bb363da086d",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "TeamIcon",
+      "sprite_name": "TeamIcon",
+      "bundle": "sram-16163",
+      "cab": "CAB-4722d5e0c4b1e02bdef0d843c614c535",
+      "path_id": "-5182290439196700589",
+      "rgba_sha256": "fb53f9f8eca47a83ab7f67a8f660b41cf970aa7746b608bb310e53c93744fccc",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "ToolEntryIcon",
+      "sprite_name": "ToolEntryIcon",
+      "bundle": "sram-16164",
+      "cab": "CAB-60e2780643dc21d43c95147e71dca930",
+      "path_id": "5598575955600745493",
+      "rgba_sha256": "b5d99b14202eeefcee10b47d1568ead61dce02a90beb2d1f16021ba60fc1b75a",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "IconMapMazePortal",
+      "sprite_name": "IconMapMazePortal",
+      "bundle": "sram-15513",
+      "cab": "CAB-839937aa25d7786fe2859918d3d7a31b",
+      "path_id": "3823760459347685361",
+      "rgba_sha256": "4b8729b9cc8f409f425b596d0b3db4c9c53b9a2a4852a737b2a5dbbcde4243da",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "BPiPhone",
+      "sprite_name": "BPiPhone",
+      "bundle": "sram-16787",
+      "cab": "CAB-2deb5b19a940410d0bf45688b8cda323",
+      "path_id": "-9202202736629805378",
+      "rgba_sha256": "032c58c577ca1436d0d7a8455b924f3e2c3ba04fd16dafe6c98672c9bbc91279",
+      "render_mode": "trimmed"
+    },
+    {
+      "name": "TrailblazePower",
+      "sprite_name": "11",
+      "bundle": "sram-13441",
+      "cab": "CAB-a5c933b2ae54f83d8f3db029a372a1ff",
+      "path_id": "-1211433820184608593",
+      "rgba_sha256": "ffeeb937437a3759345cdb4bff0f977c6b3f88595c7737f00526efa11311335d",
+      "render_mode": "logical_canvas"
+    },
+    {
+      "name": "ReservedTrailblazePower",
+      "sprite_name": "12",
+      "bundle": "sram-13599",
+      "cab": "CAB-c28594d83d0449632db623a2c1b180d6",
+      "path_id": "2888466597093741572",
+      "rgba_sha256": "aca3a8d5ca4b9856028f23749eeb9d937590b004d030c88da060393e25373d42",
+      "render_mode": "logical_canvas"
+    }
+  ]
+}

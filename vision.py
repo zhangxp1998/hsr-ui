@@ -3,7 +3,8 @@ This is NOT Android/native accessibility. No coordinates are accepted from calle
 """
 from pathlib import Path
 import hashlib, json, sys, time, copy, re
-from paths import ROOT, HUD, GUIDE, ASSETS
+from paths import ROOT
+from sprite_assets import load_assets
 from recognize_roi import GuideRecognizer, locate_layout, make_tabs, feature, cv2, np, Image
 from cavern_state import aligned_box, read_cavern_state
 from daily_state import enrich
@@ -19,22 +20,7 @@ def digest(x):
 
 class Sprites:
     def __init__(self):
-        self.assets = {}
-        for a in json.loads((HUD/'candidate-provenance.json').read_text()):
-            self.assets[a['name']] = dict(path=str(HUD/a['image']), provenance=a)
-        common = json.loads((HUD/'common-discovery-index.json').read_text())
-        for a in common['assets']:
-            self.assets.setdefault(a['name'], dict(path=str(HUD/a['image']), provenance={
-                'source':common['source'], 'source_sha256':common['source_sha256'],
-                'bundle_offset':common['bundle_offset'],'sprite_path_id':a['path_id']}))
-        for a in json.loads((GUIDE/'asset-provenance.json').read_text()):
-            self.assets[a['name']] = dict(path=str(GUIDE/a['image']), provenance=a)
-        assets = ASSETS
-        for a in json.loads((assets/'resource-icons.json').read_text()):
-            self.assets[a['name']] = dict(path=str(assets/a['image']), provenance=a,
-                                         source='original_android_drawable')
-        for a in json.loads((assets/'screenshot-profiles.json').read_text()):
-            self.assets[a['name']] = dict(path=str(assets/a['image']), provenance=a, source='screenshot_template')
+        self.assets = load_assets()
         self.assets['ShopActivityIconStable']=dict(self.assets['ShopActivityIcon'], crop_normalized=[0,0,1,.65], original_asset='ShopActivityIcon')
         self.bases, self.pyramids = {}, {}
         self.matches, self.features = {}, {}
@@ -354,7 +340,7 @@ class Vision:
                     q=m(asset,box,(58,94),threshold=.78 if key=='travel' else .80)
                     if q and q['accepted']:ns.append(self.sprite_node(key,name,q,effect='navigation'))
                 for key,name,asset,box,heights in [
-                    ('honor','无名勋礼','ObservedNamelessHonorHUD',(1410,0,1580,160),(64,98)),
+                    ('honor','无名勋礼','BPiPhone',(1410,0,1580,160),(64,98)),
                     ('shop','商店','ShopActivityIconStable',(1175,0,1335,165),(38,62)),
                     ('tutorial','教学目录','TeachIcon',(285,35,410,175),(58,98))]:
                     q=m(asset,box,heights,threshold=.76 if key=='tutorial' else .80)
